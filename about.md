@@ -9,7 +9,7 @@ layout: page
 
 <p>I am a passionate technologist who enjoys live music, collecting records, and traveling.
 
-Feel free to contact me via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a></li> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a></li>.
+Feel free to contact me via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.
 
 <h2>Skills</h2>
 
