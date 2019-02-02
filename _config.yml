@@ -14,6 +14,9 @@ url: https://rfitzhugh.github.io
 # your url: https://rfitzhugh.github.io
 
 permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
