@@ -27,7 +27,7 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 
 # Articles About Me
 
-* [A former Marine explains how her service helped prepare her to lead a new open source initiative for $3.3 billion startup Rubrik](https://www.businessinsider.com/rubrik-build-open-source-community-2019-2)
+* [A former Marine explains how her service helped prepare her to lead a new open source initiative for $3.3 billion startup Rubrik](https://www.businessinsider.com/rubrik-build-open-source-community-2019-2) Business Insider, Feb 2018
 
 ---
 
