@@ -7,7 +7,7 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 
 ---
 
-# Articles
+# Articles I Wrote
 
 * ["Are Legacy Apps the Antithesis to DevOps?"](https://devops.com/are-legacy-apps-the-antithesis-to-devops/) DevOps.com, Oct 2018
 * ["Four Keys to Unlocking Cloud Data Management"](https://www.datacenterknowledge.com/industry-perspectives/four-keys-unlocking-cloud-data-management) Data Center Knowledge, Oct 2018
@@ -22,6 +22,12 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 * [“My VCAP-DCD Experience”](http://www.pearsonitcertification.com/articles/article.aspx?p=2150971) VMware Press, Oct 2013
 * [“What You Should Know about VMware's New VCA Certifications”](http://www.pearsonitcertification.com/articles/article.aspx?p=2150972) VMware Press, Oct 2013
 * [“Why I am Pursuing the VCDX”](http://www.pearsonitcertification.com/articles/article.aspx?p=2150973) VMware Press, Oct 2013
+
+---
+
+# Articles About Me
+
+* [A former Marine explains how her service helped prepare her to lead a new open source initiative for $3.3 billion startup Rubrik](https://www.businessinsider.com/rubrik-build-open-source-community-2019-2)
 
 ---
 
