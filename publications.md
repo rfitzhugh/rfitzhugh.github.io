@@ -28,6 +28,7 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 # Articles About Me
 
 * [A former Marine explains how her service helped prepare her to lead a new open source initiative for $3.3 billion startup Rubrik](https://www.businessinsider.com/rubrik-build-open-source-community-2019-2) Business Insider, Feb 2018
+* [“Remember that the measure of success for a leader is the success of those whom you are leading” With Rebecca Fitzhugh, Principal Technologist at Rubrik](https://thriveglobal.com/stories/remember-that-the-measure-of-success-for-a-leader-is-the-success-of-those-whom-you-are-leading-with-rebecca-fitzhugh-principal-technologist-at-rubrik/) Thrive Global, Feb 2018
 
 ---
 
