@@ -7,19 +7,24 @@ Recent talks center around the human aspects of Open Source software contributio
 
 ---
 
-# 2018 Favorites
+# 2019 Favorite(s)
 
-* Design Patterns for Efficient DevOps Processes
-  * [DevOpsDays Seattle](https://www.youtube.com/watch?v=vV16e5QqOM8)
-  * [DevOpsDays Tel Aviv](https://www.youtube.com/watch?v=lEUDRA_Wq0s)
+* [Challenges of Building SDKs for Infrastructure Engineers](/talks/challenges-of-building-sdks-for-instrastructure-engineers.md)
+
+---
+
+# 2018 Favorite(s)
+
+* [Design Patterns for Efficient DevOps Processes](/talks/design-patterns-for-efficient-devops-process.md)
 
 ---
 
 # Previous Talks
 
-* We Should All Be Leaders
-  * [Women Transforming Technology](https://www.youtube.com/watch?v=IP9uNAyaFdU)
- 
+* [We Should All Be Leaders](/talks/we-should-all-be-leaders.md)
+* [Is it Time to Re-Architect Your Data Center?](/talks/is-it-time-to-rearchitect-your-data-center.md)
+* [Terraforming Your World](/talks/terraforming-your-world.md)
+
 ---
 
 # Podcasts
