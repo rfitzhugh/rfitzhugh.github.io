@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - open source
 - build
-category: projects
+category: project
 author: rfitzhugh
 description: Rubrik Build
 ---
