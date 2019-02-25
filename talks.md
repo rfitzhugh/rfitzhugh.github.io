@@ -20,6 +20,8 @@ Recent talks center around the human aspects of Open Source software contributio
 * We Should All Be Leaders
   * [Women Transforming Technology](https://www.youtube.com/watch?v=IP9uNAyaFdU)
  
+---
+
 # Podcasts
 
 * The Sphere - ["Missing Accomplished w/Rebecca Fitzhugh"](http://www.virtualizedgeek.com/2018/08/the-sphere-mission-accomplished-w-rebecca-fitzhugh/)
