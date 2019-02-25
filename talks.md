@@ -10,6 +10,7 @@ Recent talks center around the human aspects of Open Source software contributio
 # 2019 Favorite(s)
 
 * [Challenges of Building SDKs for Infrastructure Engineers](/talks/challenges-of-building-sdks-for-instrastructure-engineers.md)
+* [Learn Version Control with Git and GitHub](/talks/learn-version-control-with-git-and-github.md)
 
 ---
 
@@ -22,7 +23,6 @@ Recent talks center around the human aspects of Open Source software contributio
 # Previous Talks
 
 * [We Should All Be Leaders](/talks/we-should-all-be-leaders.md)
-* [Learn Version Control with Git and GitHub](/talks/learn-version-control-with-git-and-github.md)
 * [Is it Time to Re-Architect Your Data Center?](/talks/is-it-time-to-rearchitect-your-data-center.md)
 * [Terraforming Your World](/talks/terraforming-your-world.md)
 * [Upgrading to vSphere 6.5, the VCDX Way](/talks/upgrading-to-vsphere-65-the-vcdx-way.md)
