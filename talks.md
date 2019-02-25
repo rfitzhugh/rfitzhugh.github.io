@@ -22,6 +22,7 @@ Recent talks center around the human aspects of Open Source software contributio
 # Previous Talks
 
 * [We Should All Be Leaders](/talks/we-should-all-be-leaders.md)
+* [Learn Version Control with Git and GitHub](/talks/learn-version-control-with-git-and-github.md)
 * [Is it Time to Re-Architect Your Data Center?](/talks/is-it-time-to-rearchitect-your-data-center.md)
 * [Terraforming Your World](/talks/terraforming-your-world.md)
 
