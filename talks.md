@@ -25,6 +25,7 @@ Recent talks center around the human aspects of Open Source software contributio
 * [Learn Version Control with Git and GitHub](/talks/learn-version-control-with-git-and-github.md)
 * [Is it Time to Re-Architect Your Data Center?](/talks/is-it-time-to-rearchitect-your-data-center.md)
 * [Terraforming Your World](/talks/terraforming-your-world.md)
+* [Upgrading to vSphere 6.5, the VCDX Way](/talks/upgrading-to-vsphere-65-the-vcdx-way.md)
 
 ---
 
