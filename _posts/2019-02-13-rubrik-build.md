@@ -13,3 +13,5 @@ description: Rubrik Build
 ---
 
 # Rubrik Build
+
+Rubrik Build is an open source community in which we do dope shit.
