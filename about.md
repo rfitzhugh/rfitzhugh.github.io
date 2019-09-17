@@ -14,12 +14,15 @@ Feel free to contact me via <a href="https://twitter.com/RebeccaFitzhugh">Twitte
 <h2>Skills</h2>
 
 <ul class="skill-list">
+	<li>Ansible</li>
 	<li>Python</li>
+	<li>Terraform</li>
 	<li>HashiCorp Configuration Language (HCL)</li>
 	<li>HTML</li>
 	<li>Git</li>
 	<li>Kanban</li>
-	<li>TDD & Continuous Integration</li>
+	<li>Test Driven Development</li>
+	<li>Continuous Integration</li>
 </ul>
 
 <h2>Projects</h2>

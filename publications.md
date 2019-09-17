@@ -7,8 +7,9 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 
 ---
 
-# Articles I Wrote
+# Articles I've Authored
 
+* ["The Dawn of GraphQL"](https://www.computerweekly.com/blog/CW-Developer-Network/Rubrik-tech-lead-the-dawn-of-GraphQL) Computer Weekly, Sept 2019
 * ["Are Legacy Apps the Antithesis to DevOps?"](https://devops.com/are-legacy-apps-the-antithesis-to-devops/) DevOps.com, Oct 2018
 * ["Four Keys to Unlocking Cloud Data Management"](https://www.datacenterknowledge.com/industry-perspectives/four-keys-unlocking-cloud-data-management) Data Center Knowledge, Oct 2018
 * [“VMware's App Volumes Simplifies Management for VDI”](https://www.globalknowledge.com/blog/2016/11/22/vmwares-app-volumes-simplifies-management-for-vdi/) Global Knowledge, Nov 2016
