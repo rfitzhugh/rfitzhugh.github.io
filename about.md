@@ -7,9 +7,9 @@ layout: page
 
 ## Hi, I'm Rebecca 👋. 
 
-<p>I am a passionate technologist who enjoys live music, collecting records, and traveling.
+<p>I am a technologist who is passionate about API design, live music, and traveling.
 
-Feel free to contact me via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.
+Feel free to reach out  via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.
 
 <h2>Skills</h2>
 
@@ -23,6 +23,8 @@ Feel free to contact me via <a href="https://twitter.com/RebeccaFitzhugh">Twitte
 	<li>Kanban</li>
 	<li>Test Driven Development</li>
 	<li>Continuous Integration</li>
+	<li>REST</li>
+	<li>GraphQL</li>
 </ul>
 
 <h2>Projects</h2>

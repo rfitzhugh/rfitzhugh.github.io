@@ -31,7 +31,7 @@ Recent talks center around the human aspects of Open Source software contributio
 
 # Podcasts
 
-* The Sphere - ["Missing Accomplished w/Rebecca Fitzhugh"](http://www.virtualizedgeek.com/2018/08/the-sphere-mission-accomplished-w-rebecca-fitzhugh/)
+* The Sphere - ["Mission Accomplished w/Rebecca Fitzhugh"](http://www.virtualizedgeek.com/2018/08/the-sphere-mission-accomplished-w-rebecca-fitzhugh/)
 * Anexipod – 29 May 2018 – [“Ep 33: VCDX, vSphere 6.7, and more with Rebecca Fitzhugh”](https://www.anexinet.com/blog/episode-33-vcdx-vsphere-6-7-and-more-with-rebecca-fitzhugh/)
 * In Tech We Trust – 18 Sept 2017 – [“Ep 130: Government in Tech”](https://www.podbean.com/media/share/pb-c588c-73d507#)
 * ExploreVM – 12 Aug 2017 – [“Ep 010: A VCDX Discussion”](http://www.explorevm.com/2017/08/explorevm-podcast-episode-10-vcdx.html)
