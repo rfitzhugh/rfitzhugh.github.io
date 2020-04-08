@@ -9,6 +9,7 @@ Recent articles center around DevOps and Open Source. Please [reach out](mailto:
 
 # Articles I've Authored
 
+* ["Versioning as Part of the Modern API Lifecycle"](https://www.computerweekly.com/blog/CW-Developer-Network/IT-modernisation-series-Rubrik-versioning-as-part-of-the-modern-API-lifecycle) Computer Weekly, March 2020
 * ["The Dawn of GraphQL"](https://www.computerweekly.com/blog/CW-Developer-Network/Rubrik-tech-lead-the-dawn-of-GraphQL) Computer Weekly, Sept 2019
 * ["Are Legacy Apps the Antithesis to DevOps?"](https://devops.com/are-legacy-apps-the-antithesis-to-devops/) DevOps.com, Oct 2018
 * ["Four Keys to Unlocking Cloud Data Management"](https://www.datacenterknowledge.com/industry-perspectives/four-keys-unlocking-cloud-data-management) Data Center Knowledge, Oct 2018
