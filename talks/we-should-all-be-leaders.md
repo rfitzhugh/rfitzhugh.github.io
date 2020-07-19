@@ -5,7 +5,7 @@ layout: page
 
 # We Should All Be Leaders
 
-Reflecting upon my service in the Marine Corps inspired this session about the leadership lessons I learned. 
+Reflecting upon my service in the Marine Corps inspired this session about the leadership lessons I learned.
 
 ## Abstract
 

@@ -5,7 +5,7 @@ layout: page
 
 # Upgrading to vSphere 6.5, the VCDX Way
 
-I had the privilege of speaking with my dear friend [Melissa Palmer](https://twitter.com/vmiss33) about the topic of enterprise architecture and how balance all design considerations when upgrading. 
+I had the privilege of speaking with my dear friend [Melissa Palmer](https://twitter.com/vmiss33) about the topic of enterprise architecture and how balance all design considerations when upgrading.
 
 ## Abstract
 
