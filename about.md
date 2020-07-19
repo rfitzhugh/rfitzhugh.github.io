@@ -23,6 +23,6 @@ Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="/projects/rubrik-build.md">Rubrik Build</a></li>
-	<li><a href="/projects/zaffre.md">Zaffre</a></li>
+	<li>[/projects/rubrik-build.md](Rubrik Build)</li>
+	<li>[/projects/zaffre.md](Zaffre)</a></li>
 </ul>
