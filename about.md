@@ -20,9 +20,7 @@ Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter
 	<li>APIs: GraphQL, REST</li>
 </ul>
 
-<h2>Projects</h2>
+## Projects
 
-<ul>
-	<li>[/projects/rubrik-build.md](Rubrik Build)</li>
-	<li>[/projects/zaffre.md](Zaffre)</a></li>
-</ul>
+* [Rubrik Build](/projects/rubrik-build.md)
+* [Zaffre](/projects/zaffre.md)
