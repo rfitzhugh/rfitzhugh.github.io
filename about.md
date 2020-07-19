@@ -15,19 +15,19 @@ Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter
 
 <ul class="skill-list">
 <li>Languages</li>
-		<li>Python</li>
-		<li>HashiCorp Configuration Language (HCL)</li>
-		<li>HTML</li>
+		<li><li>Python</li></li>
+		<li><li>HashiCorp Configuration Language (HCL)</li></li>
+		<li><li>HTML</li></li>
 	<li>Infrastructure as Code</li>
-		<li>Terraform</li>
-		<li>Packer
-		<li>Ansible</li>
-		<li>AWS CloudFormation</li>
+		<li><li>Terraform</li></li>
+		<li><li>Packer</li>
+		<li><li>Ansible</li></li>
+		<li><li>AWS CloudFormation</li>
 	<li>Continuous Integration</li>
-		<li>GitLab</li>
-		<li>CircleCI</li>
-		<li>GitHub Actions</li>
-		<li>Jenkins</li>
+		<li><li>GitLab</li></li>
+		<li><li>CircleCI</li></li>
+		<li><li>GitHub Actions</li></li>
+		<li><li>Jenkins</li></li>
 	<li>APIs</li>
 		<li>GraphQL</li>
 		<li>REST</li>
@@ -35,7 +35,6 @@ Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter
 		<li>GitOps</li>
 		<li>Kanban</li>
 		<li>Test Driven Development</li>
-</ul>
 
 <h2>Projects</h2>
 
