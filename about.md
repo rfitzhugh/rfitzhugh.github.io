@@ -11,31 +11,35 @@ layout: page
 
 Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.
 
-## Skills
+<h2>Skills</h2>
 
-* Languages
-	* Python
-	* HashiCorp Configuration Language (HCL)
-	* HTML
-* Infrastructure as Code
-	* Terraform
-	* Packer
-	* Ansible
-	* AWS CloudFormation
-* Continuous Integration
-	* GitLab
-	* CircleCI
-	* GitHub Actions
-	* Jenkins
-* APIs
-	* GraphQL
-	* REST
-* Practical Skills
-	* GitOps
-	* Kanban
-	* Test Driven Development
+<ul class="skill-list">
+<li>Languages</li>
+		<li>Python</li>
+		<li>HashiCorp Configuration Language (HCL)</li>
+		<li>HTML</li>
+	<li>Infrastructure as Code</li>
+		<li>Terraform</li>
+		<li>Packer
+		<li>Ansible</li>
+		<li>AWS CloudFormation</li>
+	<li>Continuous Integration</li>
+		<li>GitLab</li>
+		<li>CircleCI</li>
+		<li>GitHub Actions</li>
+		<li>Jenkins</li>
+	<li>APIs</li>
+		<li>GraphQL</li>
+		<li>REST</li>
+	<li>Practical Skills</li>
+		<li>GitOps</li>
+		<li>Kanban</li>
+		<li>Test Driven Development</li>
+</ul>
 
-## Projects
+<h2>Projects</h2>
 
-* [Rubrik Build](/projects/rubrik-build.md)
-* [Zaffre](/projects/zaffre.md)
+<ul>
+	<li><a href="/projects/rubrik-build.md">Rubrik Build</a></li>
+	<li><a href="/projects/zaffre.md">Zaffre</a></li>
+</ul>
