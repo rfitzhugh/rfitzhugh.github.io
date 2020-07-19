@@ -5,7 +5,7 @@ layout: page
 
 # A Tale of CI/CD, Infrastructure as Code, and Data Protection (Sponsored)
 
-I had the pleasure of co-presenting with my colleague, [Bill Gurling](https://twitter.com/vDingus) on some of our favorite topics. 
+I had the pleasure of co-presenting with my colleague, [Bill Gurling](https://twitter.com/vDingus) on some of our favorite topics.
 
 ## Abstract
 
