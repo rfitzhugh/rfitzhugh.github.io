@@ -14,27 +14,11 @@ Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter
 <h2>Skills</h2>
 
 <ul class="skill-list">
-<li>Languages</li>
-		<li><li>Python</li></li>
-		<li><li>HashiCorp Configuration Language (HCL)</li></li>
-		<li><li>HTML</li></li>
-	<li>Infrastructure as Code</li>
-		<li><li>Terraform</li></li>
-		<li><li>Packer</li>
-		<li><li>Ansible</li></li>
-		<li><li>AWS CloudFormation</li>
-	<li>Continuous Integration</li>
-		<li><li>GitLab</li></li>
-		<li><li>CircleCI</li></li>
-		<li><li>GitHub Actions</li></li>
-		<li><li>Jenkins</li></li>
-	<li>APIs</li>
-		<li>GraphQL</li>
-		<li>REST</li>
-	<li>Practical Skills</li>
-		<li>GitOps</li>
-		<li>Kanban</li>
-		<li>Test Driven Development</li>
+	<li>Languages: Python, HashiCorp Configuration Language (HCL), HTML</li>
+	<li>Infrastructure as Code: Terraform, Packer, Ansible, AWS CloudFormation</li>
+	<li>Continuous Integration: GitLab, CircleCI, GitHub Actions, Jenkins</li>
+	<li>APIs: GraphQL, REST</li>
+</ul>
 
 <h2>Projects</h2>
 
