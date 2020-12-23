@@ -3,13 +3,13 @@ title: Publications
 layout: page
 ---
 
-![Profile Image]({{ site.url }}/{{ site.picture }})
+# Publications
 
 Recent articles have focused around API design and management, DevOps, and enterprise architecture. Please [reach out](mailto:rebecca@technicloud.com) if interested in including me as a featured writer. Addtionally, I author articles on my blog, [Technicloud](https://technicloud.com/). 
 
 ---
 
-# Articles I've Authored
+## Articles I've Authored
 
 * ["Versioning as Part of the Modern API Lifecycle"](https://www.computerweekly.com/blog/CW-Developer-Network/IT-modernisation-series-Rubrik-versioning-as-part-of-the-modern-API-lifecycle) Computer Weekly, March 2020
 * ["The Dawn of GraphQL"](https://www.computerweekly.com/blog/CW-Developer-Network/Rubrik-tech-lead-the-dawn-of-GraphQL) Computer Weekly, Sept 2019
@@ -18,7 +18,7 @@ Recent articles have focused around API design and management, DevOps, and enter
 
 ---
 
-# Articles About Me
+## Articles About Me
 
 * [A former Marine explains how her service helped prepare her to lead a new open source initiative for $3.3 billion startup Rubrik](https://www.businessinsider.com/rubrik-build-open-source-community-2019-2) Business Insider, Feb 2018
 * [“Remember that the measure of success for a leader is the success of those whom you are leading” With Rebecca Fitzhugh, Principal Technologist at Rubrik](https://thriveglobal.com/stories/remember-that-the-measure-of-success-for-a-leader-is-the-success-of-those-whom-you-are-leading-with-rebecca-fitzhugh-principal-technologist-at-rubrik/) Thrive Global, Feb 2018
