@@ -3,6 +3,8 @@ title: Talks
 layout: page
 ---
 
+![Profile Image]({{ site.url }}/{{ site.picture }})
+
 Recent talks center around the human aspects of Open Source software contribution. Please [reach out](mailto:rebecca@technicloud.com) if you'd like to have me as a featured speaker. My [speaker biography is here](#speaker-profile).
 
 ---
@@ -10,6 +12,7 @@ Recent talks center around the human aspects of Open Source software contributio
 # 2020 Favorite(s)
 
 * [No-BS Approach to CICD for Infrastructure as Code](/talks/no-bs-approach-to-cicd-for-iac.md)
+* [New Product Announcement Keynote @ Rubrik FORWARD 2020](https://gateway.on24.com/wcc/eh/2256824/lp/2267076/welcome-%26-vision/)
 
 # 2019 Favorite(s)
 
