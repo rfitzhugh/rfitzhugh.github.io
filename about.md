@@ -7,11 +7,11 @@ layout: page
 
 ## Hi, I'm Rebecca 👋.
 
-<p>I am a technologist who is passionate about API design, cloud architecture, infrastructure as code, live music, and traveling.
+<p>I am a technologist who is passionate about API design, cloud architecture, infrastructure as code, live music, and traveling.</p>
 
-Currently, I am employed as a Sr. Principal PaaS Architect at a team productivity software company. In this role, I am responsible for defining and driving the overall strategic vision and architecture for the company's enterprise cloud platform. Prior to this role, I led Developer Relations (experience, ecosystem, and platform) and was Senior Director of a globally distributed department team of technologists at a cloud data management software company. Additionally, I've consulted for enterprise Fortune 500 customers and government agencies (foreign and domestic) and served in the United States Marine Corps. 
+<p>Currently, I am employed as a Sr. Principal PaaS Architect at a team productivity software company. In this role, I am responsible for defining and driving the overall strategic vision and architecture for the company's enterprise cloud platform. Prior to this role, I led Developer Relations (experience, ecosystem, and platform) and was Senior Director of a globally distributed department team of technologists at a cloud data management software company. Additionally, I've consulted for enterprise Fortune 500 customers and government agencies (foreign and domestic) and served in the United States Marine Corps.</p>
 
-Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.
+<p>Feel free to reach out via <a href="https://twitter.com/RebeccaFitzhugh">Twitter</a> or <a href="https://www.linkedin.com/in/rmfitzhugh">LinkedIn</a>.</p>
 
 <h2>Skills</h2>
 
