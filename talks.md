@@ -14,6 +14,8 @@ Recent talks center around the human aspects of Open Source software contributio
 * [No-BS Approach to CICD for Infrastructure as Code](/talks/no-bs-approach-to-cicd-for-iac.md)
 * [New Product Announcement Keynote @ Rubrik FORWARD 2020](https://gateway.on24.com/wcc/eh/2256824/lp/2267076/welcome-%26-vision/)
 
+---
+
 ## 2019 Favorite(s)
 
 * [Challenges of Building SDKs for Infrastructure Engineers](/talks/challenges-of-building-sdks-for-instrastructure-engineers.md)
@@ -53,5 +55,3 @@ You can download [this picture of me](/assets/images/me.jpng) for any event page
 ### Profile
 
 Rebecca Fitzhugh is the Principal Technologist at Rubrik where she researches and evaluates emerging technologies to define and communicate long-term technical strategies. Prior to joining Rubrik, she freelanced as a consulting architect for 6 years. During that period, Rebecca worked with various federal agencies, foreign government, enterprise, and service provider customers across multiple verticals. She began her career in the US Marine Corps, acting as a data systems analyst. During her 5 year service, Rebecca specialized in cryptographic systems and eventually managed a Force level data center that provided services to the entire Pacific fleet.
-
----
