@@ -25,9 +25,7 @@ Recent articles have focused around API design and management, DevOps, and enter
 
 ---
 
-# Books
+## Books
 
 * [Learning VMware vSphere](https://www.amazon.com/dp/178217415X/ref=cm_sw_r_cp_ep_dp_W1Kkyb12WWM87) (ISBN 9781782174158), Packt Publishing, Sept 2016
 * [vSphere Virtual Machine Management](https://www.amazon.com/dp/1782172181/ref=cm_sw_r_cp_ep_dp_l2KkybH1FF40C) (ISBN 9781782172185), Packt Publishing, March 2014
-
----
