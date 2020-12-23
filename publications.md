@@ -3,7 +3,9 @@ title: Publications
 layout: page
 ---
 
-Recent articles center around DevOps and Open Source. Please [reach out](mailto:rebecca@technicloud.com) if you'd like to have me as a featured writer.
+![Profile Image]({{ site.url }}/{{ site.picture }})
+
+Recent articles have focused around API design and management, DevOps, and enterprise architecture. Please [reach out](mailto:rebecca@technicloud.com) if interested in including me as a featured writer. Addtionally, I author articles on my blog, [Technicloud](https://technicloud.com/). 
 
 ---
 
