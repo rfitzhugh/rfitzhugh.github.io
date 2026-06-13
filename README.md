@@ -49,35 +49,22 @@ categories:
 
 ## Deploying to GitHub Pages
 
+### How it works
+
+**Never push to the `gh-pages` branch directly.** Always work on `main`.
+
+The workflow is:
+1. You make changes and push to `main`
+2. GitHub Actions automatically runs — it builds the Hugo site and pushes the compiled output to the `gh-pages` branch
+3. GitHub Pages serves the site from `gh-pages`
+
+You only ever touch `main`. The `gh-pages` branch is managed entirely by the Action.
+
 ### First-time setup
 
 1. Create a GitHub repository named `rfitzhugh.github.io` (must match your GitHub username exactly).
 
-2. Add a GitHub Actions workflow file at `.github/workflows/deploy.yml`:
-
-```yaml
-name: Deploy Hugo site
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-```
+2. The GitHub Actions workflow is already at `.github/workflows/deploy.yml` — no changes needed.
 
 3. Push the repo to GitHub:
 
@@ -86,9 +73,11 @@ git remote add origin git@github.com:rfitzhugh/rfitzhugh.github.io.git
 git push -u origin main
 ```
 
-4. In your GitHub repo settings → Pages → set source to the `gh-pages` branch.
+4. In your GitHub repo **Settings → Pages → Build and deployment → Source**, select **"Deploy from a branch"**, set the branch to **`gh-pages`** and folder to **`/ (root)`**, then click **Save**.
 
-After this, every push to `main` will automatically build and deploy the site.
+5. Go to **Settings → Actions → General → Workflow permissions** and ensure **"Read and write permissions"** is selected.
+
+After the first push to `main`, the Action will run, create the `gh-pages` branch, and the site will be live at `https://rfitzhugh.github.io`.
 
 ---
 
@@ -170,13 +159,9 @@ What it is, why you built it, what you learned.
 
 ## Updating the theme
 
-The theme is included as a git submodule. To update it:
+The theme files are in `themes/hugo-blog-awesome/`. To update to a newer version, download the latest release from [github.com/hugo-sid/hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome) and replace the contents of that folder.
 
-```bash
-git submodule update --remote themes/hugo-blog-awesome
-```
-
-Test locally before pushing — theme updates occasionally include breaking changes.
+Test locally with `hugo server` before pushing — theme updates occasionally include breaking changes.
 
 ---
 
@@ -186,7 +171,7 @@ Test locally before pushing — theme updates occasionally include breaking chan
 |------|---------|
 | `hugo.toml` | Site config — title, baseURL, nav, social links, author bio |
 | `content/en/posts/` | Blog posts (Markdown) |
-| `content/en/about/_index.md` | About page content |
+| `content/en/pages/about.md` | About page content |
 | `assets/images/logo-light.png` | Logo shown in light mode |
 | `assets/images/logo-dark.png` | Logo shown in dark mode |
 | `assets/sass/_custom.scss` | Custom CSS overrides |
