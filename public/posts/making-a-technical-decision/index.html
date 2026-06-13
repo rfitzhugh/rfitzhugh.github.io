@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Making a Technical Decision | RF</title>
+<meta property="og:title" content="Making a Technical Decision | RF" />
+<meta name="twitter:title" content="Making a Technical Decision | RF" />
+<meta itemprop="name" content="Making a Technical Decision | RF" />
+<meta name="application-name" content="Making a Technical Decision | RF" />
+<meta property="og:site_name" content="RF" />
+
+<meta name="description" content="Writing about developer platforms, engineering leadership, and the craft of building software.">
+<meta itemprop="description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+<meta property="og:description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+<meta name="twitter:description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/making-a-technical-decision/" title="English" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2023-03-08T00:00:00Z />
+    <meta property="article:published_time" content=2023-03-08T00:00:00Z />
+    <meta property="og:url" content="http://localhost:1313/posts/making-a-technical-decision/" />
+
+    
+    <meta property="og:article:author" content="RF" />
+    <meta property="article:author" content="RF" />
+    <meta name="author" content="RF" />
+    
+    
+
+    
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Making a Technical Decision",
+        "author": {
+        "@type": "Person",
+        "name": "RF"
+        },
+        "datePublished": "2023-03-08",
+        "description": "",
+        "wordCount":  2853 ,
+        "mainEntityOfPage": "http://localhost:1313/posts/making-a-technical-decision/",
+        "dateModified": "2023-03-08",
+        "image": {
+        "@type": "ImageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "RF"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.163.1">
+
+    
+    <meta property="og:url" content="http://localhost:1313/posts/making-a-technical-decision/">
+	<meta property="og:site_name" content="RF">
+	<meta property="og:title" content="Making a Technical Decision">
+	<meta property="og:description" content="Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.">
+	<meta property="og:locale" content="en_gb">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2023-03-08T00:00:00+00:00">
+		<meta property="article:modified_time" content="2023-03-08T00:00:00+00:00">
+
+
+    
+    
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Making a Technical Decision">
+	<meta name="twitter:description" content="Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/making-a-technical-decision/">
+    <link href="/style.min.3b3693154a55bd41f8ab0e6c38e5d66bcf10c955c0f5b69809101cd0eb117316.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "auto" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo" aria-label="Home">
+            
+            <img src="/images/logo-light.png" alt="RF" height="32" class="logo-light" />
+            
+            
+            <img src="/images/logo-dark.png" alt="RF" height="32" class="logo-dark" />
+            
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Making a Technical Decision</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2023-03-08T00:00:00&#43;00:00" itemprop="datePublished"> 8 Mar 2023 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#scope-the-problem">Scope the problem</a>
+      <ul>
+        <li><a href="#avoid-scope-creep">Avoid scope creep</a></li>
+        <li><a href="#prioritization">Prioritization</a></li>
+      </ul>
+    </li>
+    <li><a href="#weigh-the-factors">Weigh the factors</a>
+      <ul>
+        <li><a href="#manage-risk">Manage risk</a></li>
+        <li><a href="#declare-dependencies">Declare dependencies</a></li>
+      </ul>
+    </li>
+    <li><a href="#make-the-decision">Make the decision</a>
+      <ul>
+        <li><a href="#foster-discussion-and-gather-feedback">Foster discussion and gather feedback</a></li>
+        <li><a href="#document-the-decision">Document the decision</a></li>
+        <li><a href="#communicate-the-decision">Communicate the decision</a></li>
+      </ul>
+    </li>
+    <li><a href="#useful-frameworks">Useful Frameworks</a>
+      <ul>
+        <li><a href="#spade">SPADE</a></li>
+        <li><a href="#cynefin">Cynefin </a></li>
+        <li><a href="#ooda">OODA</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <p>Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. </p>
+<p>Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.</p>
+<p>Engineering organizations of all sizes make technical decisions every day. Every person in a technical role makes decisions, though the scope may vary across roles. Most of the time, these decisions are on a relatively small scale: an individual engineer or a small team solving a problem in the way that makes the most sense to them.</p>
+<p><img src="/images/2023/03/pelosi.gif" alt="alt text"></p>
+<p>There is proportionality to each decision. Some decisions have a much broader impact, and it’s essential to have a process for capturing those decisions. Such decisions contribute to a deeper vision of how your stack or toolchain is evolving in response to changing technology and business landscape.</p>
+<h2 id="scope-the-problem">Scope the problem</h2>
+<p>First, what are you deciding (and why)? Determining the actual decision and scope is the first step toward having a rational plan to execute once the decision is made. Think about how you can frame the decision as a concrete question. </p>
+<p>Failing to do this results in people discussing from different premises, causing misalignment about what the decision or project actually entails. When exploring the problem area, consider the following:</p>
+<ul>
+<li><strong>Specificity</strong> – an actionable problem statement takes aim at a particular issue. Avoid boiling the ocean.</li>
+<li><strong>Decision-maker criteria</strong>*** *** – defines what information is needed by the decision-maker(s) to select a path forward.</li>
+<li><strong>Contextual constraints</strong> – this is the landscape the decision is made in; for example, capabilities of existing infrastructure, the business landscape, and laws of physics.</li>
+<li><strong>Timeframe and level of accuracy required</strong> – for example, a go/no-go decision must be made by the end of the quarter, or the projected cost savings must be accurate +/- 20%.</li>
+<li><strong>Plan of action</strong> – clearly understands what outcomes are achievable once this problem is solved and communicates the immediate next step.</li>
+</ul>
+<p>A problem that is well understood is already half-solved and generally leads to better solutions. Avoid defining any solution at this stage. </p>
+<blockquote>
+<p><em>“If I had an hour to solve a problem, I’d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” ― Albert Einstein</em></p>
+</blockquote>
+<h3 id="avoid-scope-creep">Avoid scope creep</h3>
+<p>The impact of scope creep is almost always negative because the work increases, but the timeframe does not. Scope creep is notorious for taking focus away from the actual problem and blowing out timelines. Increasing the problem’s scope will only result in choosing an over-engineered solution or solving challenges you don’t currently have. </p>
+<p>There are commonly three adjustable levers: scope (i.e., what is included as part of a problem to be solved, or what factors to consider in a decision), resourcing (i.e., availability and quantity of personnel that can work as a team on the problem), and timing (i.e., when the work needs to be delivered, or by when the decision must be made). Often, the scope is increased without adjusting the other two levers – inevitably causing problems. </p>
+<p>Ensuring that scope additions are relevant to the problem being addressed is crucial. If the scope increases, then reevaluate the resourcing and timing for the decision or project. </p>
+<h3 id="prioritization">Prioritization</h3>
+<p>Prioritizing which problem to solve is a particularly challenging part of decision-making. There’s usually a laundry list of problems to solve or things to do at any given time. The Eisenhower Matrix is an effective way to help organize tasks by urgency and importance. </p>
+<p><img src="/images/2023/03/prioritization-framework.jpg" alt="alt text"></p>
+<p>In more detail, the quadrants are:</p>
+<ul>
+<li><strong>Do it now</strong> – a task or decision that requires immediate attention. When something is urgent, it must be done now, and there are clear consequences if the decision is not made within a specific timeline. </li>
+<li><strong>Schedule it</strong> – may not require immediate attention, but these tasks or decisions help achieve long-term goals. Just because these tasks are less urgent doesn’t mean they don’t matter – instead, they need to be thoughtfully planned to ensure resources are efficiently used. </li>
+<li><strong>Delegate it</strong> – tasks or decisions that are urgent but not important. These tasks must be completed sooner but don’t affect long-term goals. Because there is no personal attachment to these tasks or decisions and they don’t require a specific skill set, these can be delegated to other team members. </li>
+<li><strong>Don’t do it</strong> – these are unimportant, non-urgent distractions that get in the way of accomplishing goals. </li>
+</ul>
+<p>Be wary of the “tip of the iceberg” approach. It’s easy to solve the most <em>visible</em> problem, but often the real issue lurks beneath the surface. Identifying the real problems requires having a deep understanding of the system (and other systems it interacts with). However, there may be limits to what one can know or what data one can collect. </p>
+<p>Data-driven decision-making works best when buttressed with good intuition and instincts, particularly when making decisions while missing bits of critical data. I learned the 75% method while in the <a href="/2016-11-24-lessons-learned-from-my-time-in-the-marine-corps.md">Marine Corps</a>, which prescribes collecting information until you have about 75% of the data needed. Then use your expertise, experience, and gut to fill out the other 25%. </p>
+<h2 id="weigh-the-factors">Weigh the factors</h2>
+<p>Making the right decisions, especially ones that have a broad impact, can be challenging. It’s never as simple as writing down a list of pros and cons. Numerous aspects and their varying importance have to be considered. This evaluation begins by defining the decision criterion. </p>
+<p>Decision criteria are principles, factors, or requirements used to make a decision. This criterion can be as rigid as detailed specifications and criteria scoring; or as flexible as a rule of thumb. Some examples include monetary cost, opportunity cost, ROI, risk, strategic fit, and sustainability. </p>
+<p>Some decision criteria are discrete; others are continuous. It’s possible to devise a scorecard-like approach or weighted matrix against which to measure each option. Remember that some criteria may be more subjective, so this is an imperfect science. However, a clear view of the criteria can demonstrate how a range of decision options compare.</p>
+<h3 id="manage-risk">Manage risk</h3>
+<p>Effective decision-making is about using the best judgment. Best judgment means having an opinion, going out on a limb, leveraging experience, and taking risks. Part of the decision-making process is managing those risks and minimizing the risk factors. </p>
+<p>Intuitively, when considering risk, we focus on the probability of adverse events while neglecting their impact. Risk, however, is the possibility of something terrible happening, compounded by its consequences.</p>
+<p>The <a href="https://ntrs.nasa.gov/api/citations/20120000033/downloads/20120000033.pdf"><u>NASA Risk Management Handbook</u></a> defines risk as the following elements: </p>
+<p><img src="/images/2023/03/risk.png" alt="alt text"></p>
+<ul>
+<li><strong>Scenario</strong> – a sequence of credible events that specify the evolution of a system from a given state to an undesired condition. </li>
+<li><strong>Likelihood</strong> – the measure of how possible the scenario is to occur; it can be qualitative or quantitative. </li>
+<li><strong>Consequences</strong> – the impact should any of the scenarios occur; the severity can be qualitative (e.g., reputational damage) or quantitative (e.g., money lost). </li>
+</ul>
+<p>Consider the reversibility of the decision. One-way door decisions are decisions that you cannot easily reverse. These decisions need to be made carefully. Two-way door decisions can be reversed. You can walk through the door, see if you like it, and if not, go back. These decisions can be made fast or even automated.</p>
+<p>When making a critical, one-way door decision, try to reduce risk by transforming it into a two-way door decision or reducing exposure. Keep in mind that this changes the risk profile but does not change the importance or urgency of the decision. </p>
+<h3 id="declare-dependencies">Declare dependencies</h3>
+<p>Decisions don’t live in isolation. Decisions are constrained by and depend on the context in which they are being made. Managing dependencies is an integral part of decision-making and executing the decision once made. Unknown dependencies introduce more risk to a decision. </p>
+<p>There are several types of dependencies to be aware of:</p>
+<ul>
+<li><strong>Technical dependency</strong> – the relationship between two decisions that affect the technical outcome of a decision.</li>
+<li><strong>Schedule dependency</strong> – the relationship between two decisions where the timing of one impacts the other.</li>
+<li><strong>Resource dependency</strong> – a shared critical resource between two decisions. </li>
+<li><strong>Information dependency</strong> – a relationship where information shared between decisions would impact the scope or consequence of a decision. </li>
+</ul>
+<p>The directional relationship of these dependencies may be upstream or downstream. </p>
+<p>Upstream dependencies are things that a decision is reliant on happening before the decision can be made. These things need to happen upstream and flow down into the decision. </p>
+<p>If upstream dependencies have to happen before a decision can be made, downstream dependencies occur afterward. Any delay in making the decision will impact the downstream dependency. </p>
+<h2 id="make-the-decision">Make the decision</h2>
+<p>There is the possibility of making a bad decision. Because decisions can only be evaluated after the fact, it can be costly to revert a decision because it’s often already embedded into systems and processes. So what does a good decision look like? </p>
+<ul>
+<li>It’s a decision. Deciding not to decide is still a decision. But not deciding is a non-decision. </li>
+<li>The problem and desired outcome are clearly stated.</li>
+<li>Context is considered. This may include the business or economic environment, team constraints, and other factors. </li>
+<li>The decision is informed by feedback from people with different perspectives.</li>
+<li>Trade-offs are weighed, as well as how to manage them.</li>
+<li>It considers what could go wrong, and risks are documented.</li>
+<li>Assumptions are stated as well as a way to validate them.</li>
+</ul>
+<p>There is no perfect decision without trade-offs, and it’s possible to go back and forth about a decision forever. Make the final call and provide clarity to anyone affected by the decision. At this point, the decision maker should be clear about what is being done and the next steps. Teams must be aligned on why this direction is important, the desired outcome, and how this aligns with our strategy and vision. </p>
+<h3 id="foster-discussion-and-gather-feedback">Foster discussion and gather feedback</h3>
+<p>Decisions do not occur in a vacuum. The decision driver should meet consistently with stakeholders and foster discussion. This is where people can ask questions, gain a shared understanding, and reach buy-in. There may be multiple rounds of discussions during the decision-making process. It may begin with a conversation about the problem area, and more specific meetings occur later on particular topics. </p>
+<p>It’s easy to say, “I’m open to feedback,” but creating space for feedback is vital. It can be helpful to frame the question to gather specific feedback (e.g., “is there any context missing?”). Making space for feedback can include:</p>
+<ul>
+<li>Space out the different constructs of the decision (e.g., just the scope of the problem for one conversation, then discuss trade-offs the next) to give stakeholders time to digest, ask questions, form opinions, and comment. </li>
+<li>Facilitate discussion to hear from a broad range of opinions, including those who dissent and others who are less inclined to share. </li>
+<li>Make people comfortable to share feedback with the group, but also work behind the scenes to collect feedback 1:1 that they may not want to share publicly. </li>
+</ul>
+<p>Feedback is often captured in the form of trade-offs (i.e., what we give up to invest in a particular option). This demonstrates that the feedback was heard and weighed, but other factors are being prioritized.</p>
+<p>There is the possibility of making a bad decision. It is costly to revert a decision already embedded into systems and processes. Thus, gathering feedback early and often helps identify issues or overlaps sooner and allows you to gain acceptance of your technical decision. </p>
+<h3 id="document-the-decision">Document the decision</h3>
+<p>By now, the data has been collected, a clear problem is being solved, and the hypothesis on the correct direction and a way to measure the outcome have been defined. Feedback has been heard and incorporated into the decision. Now the decision must be documented. Similar to feedback, this is something that should be happening throughout the process. </p>
+<p>The purpose of documenting a decision is to capture all the contextual information in one place. The act of writing solidifies the decision, solicits broader feedback, and allows for widespread communication. Documenting the decision also helps in other ways, such as: </p>
+<ul>
+<li><strong>Alignment</strong> – teams need to understand the historical landscape and context of the decision; a decision’s impact may outlast the decision maker’s tenure. </li>
+<li><strong>Reduce duplicate effort</strong> – avoid wasting time and effort by repeating past discussions. </li>
+<li><strong>Retrospective</strong> – context may change; understand why the decision was made at that time and why it was the right/wrong decision. </li>
+</ul>
+<p>It is helpful to have a decision-making model, such as <a href="https://project-management.com/daci-model/"><u>DACI</u></a>, <a href="https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix/"><u>RACI</u></a>, or <a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html"><u>ADR</u></a>. No matter which you choose, it should clearly capture the decision, trade-offs, and the roles and responsibilities of those involved. </p>
+<h3 id="communicate-the-decision">Communicate the decision</h3>
+<p>Once the decision is made, socialize it with the stakeholders. A common anti-pattern is reaching a decision and not sharing this; eventually, it causes distrust and disharmony in those affected by the decision. Instead, bring them on the journey and make them feel part of the decision-making process. </p>
+<p>Ultimately, create a document of the decision to ensure future members understand its rationale. Share widely in the correct communication channels and then focus on aligning people with the next steps and why a decision has been made.</p>
+<h2 id="useful-frameworks">Useful Frameworks</h2>
+<p>This section provides a few different frameworks that can be adapted for driving important decisions. Frameworks are like shoes; some will fit more comfortably than others. If a framework doesn’t feel natural to you, then either find one that does or adapt the framework into terms that work for you. </p>
+<h3 id="spade">SPADE</h3>
+<p>Created by Gokul Rajaram while working at Google, the <a href="https://coda.io/@gokulrajaram/gokuls-spade-toolkit"><u>SPADE</u></a> framework is intended to help build the decision-making muscle to enable faster decision-making. The framework is a quick assessment of the problem and the decision being made and then used to bring others up to speed. The elements are:</p>
+<ul>
+<li><strong>Setting</strong> – contextualizes the decision by defining the “what” and parsing the objective to explain the “why.” </li>
+<li><strong>People</strong> – defines the roles and responsibilities of those involved in the decision-making process. </li>
+<li><strong>Alternatives</strong> – outline the realistic options available, the impact of each choice, and its evaluation against the decision’s setting.</li>
+<li><strong>Decide</strong> – weigh the information, consider people’s feedback, and then make the decision; choose an alternative and detail why it was chosen. </li>
+<li><strong>Explain</strong> – articulate why the alternative was selected, the impact of the decision, and any associated risks; communicate with stakeholders. </li>
+</ul>
+<p>The decision-making framework outlines a step-by-step process to synchronize and speed up collaborative decisions. </p>
+<h3 id="cynefin">Cynefin </h3>
+<p>The <a href="https://hbr.org/2007/11/a-leaders-framework-for-decision-making"><u>Cynefin Framework</u></a> gives context to decision-making by providing context and guiding a response. It is a sensemaking framework to help think through the details of a situation, classify it, and understand the appropriate response to the situation. The five domains of the Cynefin Framework are:</p>
+<ul>
+<li><strong>Obvious</strong> – the relationship between cause and effect is already well-known; respond according to established practices. </li>
+<li><strong>Complicated</strong> – the relationship between cause and effect is knowable; the situation can be analyzed to form a hypothesis of what should be done.</li>
+<li><strong>Complex</strong> – the relationship between cause and effect is unknowable; experiments or spikes should be conducted to understand the situation. </li>
+<li><strong>Chaotic</strong> – the situation is very unstable; one must act quickly, and there is no time to conduct experiments or analyze the situation. </li>
+<li><strong>Disorder</strong> – not determined; anything whose domain has not been identified falls into this domain. </li>
+</ul>
+<p>These domains help decision-makers create an awareness of what is really complex and what is not. From there, the decision maker can respond accordingly so that no energy is wasted in overthinking the problem and to ensure that they aren’t trying to make the complex fit into standard solutions or vice versa.</p>
+<h3 id="ooda">OODA</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/OODA_loop"><u>Boyd Cycle</u></a>, also known as “the OODA Loop,” is a concept used to describe a recurring decision-making cycle. The goal is to process the cycle quickly and continuously, allowing the decision-maker to react quickly to the changing environment. The four elements are: </p>
+<ul>
+<li><strong>Observe</strong> – continued awareness of the situation, context, and any changes. The first step is to identify the problem and gain an overall understanding of the environment. </li>
+<li><strong>Orient</strong> – reflect upon what was observed, and consider what should be done next. This step recognizes, diagnoses, and analyzes the observed situation. </li>
+<li><strong>Decide</strong> – suggest a course of action, considering the trade-offs and acceptable degree of risk. </li>
+<li><strong>Act</strong> – turn the decision into action, and measure the outcome. </li>
+</ul>
+<p>Once a decision is made, the situation changes. Thus, the OODA Loop turns on itself and repeats again and again.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Balancing the past, present, and future is challenging when making a technical decision. This process requires patience, understanding, and problem-solving. Technical leaders are stewards of this process and should focus on the outcomes of a decision (rather than implementation or execution details) and aligning teams around why a decision was made. </p>
+<p>Technical decision-making is complex; even the best decisions sometimes don’t turn out as you’d hoped. You can improve your decision-making skills by revisiting old decisions. Was there a missed context? Trade-offs that turned out to be different than expected? A good decision-making process can help confidently deliver technical decisions consistent with long-term strategy and architectural principles.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/rfitzhugh" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://linkedin.com/in/rmfitzhugh" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2026 RF.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

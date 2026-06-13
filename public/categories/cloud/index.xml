@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on RF</title>
+    <link>http://localhost:1313/categories/cloud/</link>
+    <description>Recent content in Cloud on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Collaboration with Terraform Cloud</title>
+      <link>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</guid>
+      
+      <description>&lt;p&gt;Our team at Rubrik uses Terraform extensively to manage our infrastructure as code. This means that our infrastructure configurations are version controlled and resources are provisioned in an automated fashion through CI/CD workflows. Because it’s a customer-zero environment, we’re constantly evaluating new tools to find better ways to manage and scale the environment. This led us to trying out Terraform Cloud. &lt;/p&gt;
+&lt;p&gt;Easy collaboration is the name of the game with Terraform Cloud. It offers team-oriented remote execution and is consumed as a SaaS platform. In this post, I’ll cover remote state management, cost estimation, and collaboration with Terraform Cloud.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

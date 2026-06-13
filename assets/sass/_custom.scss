@@ -1,0 +1,15 @@
+// Logo light/dark switching
+.logo-light { display: inline-block; }
+.logo-dark  { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    .logo-light { display: none; }
+    .logo-dark  { display: inline-block; }
+  }
+}
+
+html.dark {
+  .logo-light { display: none; }
+  .logo-dark  { display: inline-block; }
+}

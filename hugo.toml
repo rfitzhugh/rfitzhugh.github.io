@@ -1,0 +1,86 @@
+title = "RF"
+baseURL = 'https://rfitzhugh.github.io/'
+
+locale = 'en-us'
+defaultContentLanguage = "en-gb"
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+theme = "hugo-blog-awesome"
+
+[services]
+  [services.googleAnalytics]
+    id = ''
+  [services.disqus]
+    shortname = ''
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[Languages.en-gb]
+  label = "English"
+  locale = "en-gb"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en-gb.menu]
+  [[Languages.en-gb.menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[Languages.en-gb.menu.main]]
+    pageRef="pages/about"
+    name = 'About'
+    url = '/pages/about/'
+    weight = 30
+
+[Languages.en-gb.params]
+  sitename = "RF"
+  defaultColor = "auto"
+  description = "Writing about developer platforms, engineering leadership, and the craft of building software."
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "2 Jan 2006"
+  rssFeedDescription = "summary"
+
+[Languages.en-gb.params.author]
+  intro = "RF"
+  name = "RF"
+  description = "I build the platforms that engineers use to build software."
+
+[Languages.en-gb.params.webmanifest]
+  name = "RF"
+  short_name = "RF"
+  start_url = "/"
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+
+[params.browserconfig]
+  TileColor = "#2d89ef"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/rfitzhugh"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/rmfitzhugh"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"

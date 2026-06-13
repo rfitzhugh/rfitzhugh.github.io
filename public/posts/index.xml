@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on RF</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Technical Decision</title>
+      <link>http://localhost:1313/posts/making-a-technical-decision/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/making-a-technical-decision/</guid>
+      
+      <description>&lt;p&gt;Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. &lt;/p&gt;
+&lt;p&gt;Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Setting the Technical Direction for a Team</title>
+      <link>http://localhost:1313/posts/setting-the-technical-direction-for-a-team/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/setting-the-technical-direction-for-a-team/</guid>
+      
+      <description>&lt;p&gt;The larger the organization or project, the more complex and involved the work. A small team of three might be able frequently enough to coordinate, but a group of 12, a stream of 100, or an organization of 1000 can scarcely achieve that. Instead, technical leaders define what to accomplish and how to achieve those goals and document it in a way everyone can easily use as a reference.&lt;/p&gt;
+&lt;p&gt;Two indicators of a productive and satisfied engineering team are when every team member understands the team’s technical direction and how the work they’re currently doing contributes to that direction. As senior technical leaders, it is part of our role to establish that direction and a plan for how to get there. &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Laws I Keep Coming Back To</title>
+      <link>http://localhost:1313/posts/laws-i-keep-coming-back-to/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/laws-i-keep-coming-back-to/</guid>
+      
+      <description>&lt;p&gt;Every experienced engineer eventually builds a private library of principles.&lt;/p&gt;
+&lt;p&gt;Some come from books. Some come from painful incidents. Some come from watching a well-intentioned organization repeatedly make the same mistake with different vocabulary. Over time, these principles become shortcuts: not shortcuts around thinking, but shortcuts back into the right kind of thinking.&lt;/p&gt;
+&lt;p&gt;The ones I return to most often are not really “laws” in the scientific sense. They are compression algorithms for hard-earned judgment. They help explain why teams get stuck, why metrics mislead, why adding people can slow things down, why organizations ship systems that look suspiciously like their org charts, and why the obvious answer is often only obvious because we are looking at the wrong thing.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Giving a Kickass Product Demo</title>
+      <link>http://localhost:1313/posts/giving-a-kickass-product-demo/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/giving-a-kickass-product-demo/</guid>
+      
+      <description>&lt;p&gt;Technologists of all career paths should be able to ace giving a technical demo — not just folks in public facing roles. As an architect, product manager, or engineer you may need to give an internal product demo for a prototype or proof of concept. It takes a mix of science (methodology) and art (storytelling) to give a kickass demo. &lt;/p&gt;
+&lt;p&gt;This post summarizes the methodology established by our team to ensure consistently successful demonstrations and a repeatable pattern that could be adopted by other public speakers. &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Easy Collaboration with Terraform Cloud</title>
+      <link>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</guid>
+      
+      <description>&lt;p&gt;Our team at Rubrik uses Terraform extensively to manage our infrastructure as code. This means that our infrastructure configurations are version controlled and resources are provisioned in an automated fashion through CI/CD workflows. Because it’s a customer-zero environment, we’re constantly evaluating new tools to find better ways to manage and scale the environment. This led us to trying out Terraform Cloud. &lt;/p&gt;
+&lt;p&gt;Easy collaboration is the name of the game with Terraform Cloud. It offers team-oriented remote execution and is consumed as a SaaS platform. In this post, I’ll cover remote state management, cost estimation, and collaboration with Terraform Cloud.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Visualizing the Conceptual Model for Technical Architecture</title>
+      <link>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</guid>
+      
+      <description>&lt;p&gt;I have &lt;a href=&#34;http://localhost:1313/2017-07-07-conceptual-logical-physical.md&#34;&gt;previously written&lt;/a&gt; about putting together the conceptual model with logical and physical design; however, I want to dig a little deeper into the conceptual model. The conceptual model categorizes the assessment findings into requirements, constraints, assumptions, and risks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Business &lt;strong&gt;requirements&lt;/strong&gt; are provided by key stakeholders and the goal of every solution is to achieve each of these requirements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Constraints&lt;/strong&gt; are conditions that provide boundaries to the design.
+&lt;ul&gt;
+&lt;li&gt;These often get confused with requirements, but remember that a requirement should allow the architect to evaluate multiple options and make a design decision whereas a constraint dictates the answers and removes the ability for the architect to decide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Assumptions&lt;/strong&gt; list the conditions that are believed to be true, but are not confirmed:
+&lt;ul&gt;
+&lt;li&gt;By the time of deployment, all assumptions should be validated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risks&lt;/strong&gt; are factors that might have a negatively affect the design.
+&lt;ul&gt;
+&lt;li&gt;All risks should be mitigated, if possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Describes what should be achieved in the project; describes what the solution will look like.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Problem Solving with the Cynefin Framework</title>
+      <link>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</guid>
+      
+      <description>&lt;p&gt;Effective leaders know that problem solving is not “one-size-fits-all”. The action taken depends on the situation and, because the circumstances are changing, better decisions can be by using an adaptive approach. I have previously written about the 75% method that I learned in the military, but there’s another framework that I have consistently used with success.&lt;/p&gt;
+&lt;p&gt;Cynefin, pronounced “kih-neh-vihn” (don’t worry, I mispronounced it for longer than I’d like to admit), is a Welsh word that means “place”. The Cynefin framework was coined in 1999 by Dave Snowden. Simply, the Cynefin framework is used to help realize that not all situations are equal and to successfully navigate different situations, different responses are required.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Ch-ch-change Management</title>
+      <link>http://localhost:1313/posts/ch-ch-change-management/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ch-ch-change-management/</guid>
+      
+      <description>&lt;p&gt;Change management has never been easy for the dev or the ops side of the house. Let’s face it; it’s usually a checklist item and a tool to CYA. However, we are moving to a world where change is a part of the culture and a frequent process. There is no excuse to not improve.&lt;/p&gt;
+&lt;p&gt;The ultimate goal of change management is to drive organizational results and outcomes by engaging the staff to encourage the adoption of a new way to work. Whether it is a process, system, job role, or organizational structure change (potentially…all of the above), a project can only successful if the individual changes daily behaviors and begins doing the job in a new way. This is the nature of change management.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Considering the Methods for Release Engineering</title>
+      <link>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</guid>
+      
+      <description>&lt;p&gt;The entire goal of release engineering is to accelerate rollout of new software or new releases as much as possible. Release engineering focuses on building a pipeline that transforms source code into an integrated, compiled, packaged, tested, and signed product that is ready for release.&lt;/p&gt;
+&lt;p&gt;Release management coordinates release workflows between various dev and ops personnel. Release engineers are more technically focused: working with the code, build systems, configuration management tools and container platforms, among other pipeline components, directly.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Digging into Test Automation</title>
+      <link>http://localhost:1313/posts/digging-into-test-automation/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digging-into-test-automation/</guid>
+      
+      <description>&lt;p&gt;Part of making processes more efficient is relying on the crucial component, automation. In DevOps, automation is a near-must for successful performance, because it reduces the number of repetitive tasks thus decreasing the time required for quality results. It is the biggest quality maintainer and speed promoter.&lt;/p&gt;
+&lt;p&gt;As it’s impossible to automate everything, it’s important to have an automation strategy to get maximum ROI from time and money spent. A properly planned strategy can increase the speed of development and free up teams to concentrate on more essential tasks.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Get Mapped: Value Stream Mapping</title>
+      <link>http://localhost:1313/posts/get-mapped-value-stream-mapping/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/get-mapped-value-stream-mapping/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018/06/twain.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Value stream mapping (VSM) does exactly that: it is a DevOps framework (“borrowed” from manufacturing) that provides a structured way for cross-functional teams to collectively see where we are today (long release cycles, silos, damage control afterwards, etc.) and where we want to be in the future (short release cycles, infrastructure as code, iterative development, continuous delivery, etc.).&lt;/p&gt;
+&lt;p&gt;A VSM is a way of getting people to collaborate and see what is really happening. These exercises are often amazing “aha!” moment workshops that make three objectives (flow, feedback, and continuous integration) turn into a sustainable engine of improvement.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Delving into Immutable Infrastructure</title>
+      <link>http://localhost:1313/posts/delving-into-immutable-infrastructure/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/delving-into-immutable-infrastructure/</guid>
+      
+      <description>&lt;p&gt;Before getting too far into the topic, let’s first take a quick look at the difference between mutability and immutability.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Mutable&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Immutable&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Continually updated, patched, and tuned to meet the ongoing needs of the purpose it serves.&lt;/td&gt;
+					&lt;td&gt;State does not change or deviated once constructed. Any changes result in the deployment of a new version rather than modifying existing.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I found this incredible GIF on Giphy, but with some light googling I found that this image came from an O’Reilly &lt;a href=&#34;https://www.oreilly.com/ideas/an-introduction-to-immutable-infrastructure&#34;&gt;blog post&lt;/a&gt;. But I think it does an excellent job of visualizing the difference.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Technical Design: Conceptual, Logical, Physical</title>
+      <link>http://localhost:1313/posts/conceptual-logical-physical/</link>
+      <pubDate>Fri, 07 Jul 2017 16:00:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/conceptual-logical-physical/</guid>
+      
+      <description>&lt;p&gt;One of the things that I have noticed as I do design reviews is that many engineers do not correctly document conceptual, logical, and physical design.&lt;/p&gt;
+&lt;p&gt;The best non-tech example that I have seen of this concept the following image:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2017/07/idea.jpeg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The way I always describe and diagram design methodology is using the following image:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2017/07/concept.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I will continue to refer to both images as we move forward in this post.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Importance of Mentorship: Building the Mentoring Relationship (Part IV)</title>
+      <link>http://localhost:1313/posts/the-importance-of-mentorship-building-the-mentoring-relationship-part-iv/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-importance-of-mentorship-building-the-mentoring-relationship-part-iv/</guid>
+      
+      <description>&lt;p&gt;Previously discussed topics were the &lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;importance of mentoring and leadership&lt;/a&gt;, as well as the &lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/&#34;&gt;roles of a mentor&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-roles-of-the-mentee-part-iii/&#34;&gt;roles of a mentee&lt;/a&gt;. To view the entire series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;Part 1: Interlacing Leadership and Mentoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/&#34;&gt;Part 2: The Many Roles of the Mentor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-roles-of-the-mentee-part-iii/&#34;&gt;Part 3: The Roles of the Mentee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This post will dive into what is required to build the mentoring relationship. I’m going to take a different approach this time; instead of writing a bunch of paragraphs, I am going to summarize the phases of the mentoring relationship by using an outline. Let’s see how this goes!&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Importance of Mentoring: The Roles of the Mentee (Part III)</title>
+      <link>http://localhost:1313/posts/the-importance-of-mentoring-the-roles-of-the-mentee-part-iii/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-importance-of-mentoring-the-roles-of-the-mentee-part-iii/</guid>
+      
+      <description>&lt;p&gt;Previously discussed was the &lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;importance of mentoring and leadership&lt;/a&gt;, as well as the &lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/&#34;&gt;roles of a mentor&lt;/a&gt;. This post will cover the various responsibilities of the mentee. To view the entire series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;Part 1: Interlacing Leadership and Mentoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/&#34;&gt;Part 2: The Many Roles of the Mentor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-building-the-mentoring-relationship-part-iv/&#34;&gt;Part 4: Building the Mentoring Relationship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Studies have shown that mentors typically select their protégés based on performance and potential. Mentors will continue to invest in the relationship when mentees use their time well and are truly open to feedback.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Importance of Mentoring: The Many Roles of the Mentor (Part II)</title>
+      <link>http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-importance-of-mentoring-the-many-roles-of-the-mentor-part-ii/</guid>
+      
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;Previously discussed&lt;/a&gt; was the importance of mentoring, as well as how mentoring and leadership are intertwined. This post will cover the many roles of the mentor. To view the entire series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/&#34;&gt;Part 1: Interlacing Leadership and Mentoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentoring-the-roles-of-the-mentee-part-iii/&#34;&gt;Part 3: The Roles of the Mentee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/the-importance-of-mentorship-building-the-mentoring-relationship-part-iv/&#34;&gt;Part 4: Building the Mentoring Relationship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have been fortunate to be on the receiving end of more than one great mentor and have served as a formal and informal mentor to others. The long-term impact of mentoring can be career changing, perhaps even life changing.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Importance of Mentorship: Interlacing Leadership and Mentoring (Part I)</title>
+      <link>http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-importance-of-mentorship-interlacing-of-leadership-and-mentoring-part-i/</guid>
+      
+      <description>&lt;p&gt;Today’s young employees are tomorrow’s future leaders. As a leader, there is an obligation to help the future by training and mentoring tomorrow’s leader.&lt;/p&gt;
+&lt;p&gt;The benefits of mentorship are well known: those less experienced receive feedback, insight, and support from someone more experienced. The mentor acts as a guide who can offer impartial support and advice.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2017/02/obama.gif&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Leadership and mentoring go hand-in-hand&lt;/strong&gt;. Effective leadership guides and provides an example for those subordinate. Additionally, a leader should be spending one-on-one time with subordinates to guide to the next level in their career…beyond just semi-yearly performance reviews.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Lessons Learned From My Time in the Marine Corps</title>
+      <link>http://localhost:1313/posts/lessons-learned-from-my-time-in-the-marine-corps/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/lessons-learned-from-my-time-in-the-marine-corps/</guid>
+      
+      <description>&lt;p&gt;This month I’ve spent a lot of time reflecting on my time in the Marine Corps, and not just because of Veterans Day a few weeks ago. November 27 is 10 years since I stood on the yellow footprints at bootcamp in Parris Island, SC, and 5 years since I separated from the service. I’ve now been out of the military as long as I was in it. Sometimes it feels I just got out of the Marine Corps; but most of the time it feels like a weird dream that I woke up from…as if I was never really in the military.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

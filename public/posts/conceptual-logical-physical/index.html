@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Technical Design: Conceptual, Logical, Physical | RF</title>
+<meta property="og:title" content="Technical Design: Conceptual, Logical, Physical | RF" />
+<meta name="twitter:title" content="Technical Design: Conceptual, Logical, Physical | RF" />
+<meta itemprop="name" content="Technical Design: Conceptual, Logical, Physical | RF" />
+<meta name="application-name" content="Technical Design: Conceptual, Logical, Physical | RF" />
+<meta property="og:site_name" content="RF" />
+
+<meta name="description" content="Writing about developer platforms, engineering leadership, and the craft of building software.">
+<meta itemprop="description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+<meta property="og:description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+<meta name="twitter:description" content="Writing about developer platforms, engineering leadership, and the craft of building software." />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/conceptual-logical-physical/" title="English" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2017-07-07T16:00:21Z />
+    <meta property="article:published_time" content=2017-07-07T16:00:21Z />
+    <meta property="og:url" content="http://localhost:1313/posts/conceptual-logical-physical/" />
+
+    
+    <meta property="og:article:author" content="RF" />
+    <meta property="article:author" content="RF" />
+    <meta name="author" content="RF" />
+    
+    
+
+    
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Technical Design: Conceptual, Logical, Physical",
+        "author": {
+        "@type": "Person",
+        "name": "RF"
+        },
+        "datePublished": "2017-07-07",
+        "description": "",
+        "wordCount":  722 ,
+        "mainEntityOfPage": "http://localhost:1313/posts/conceptual-logical-physical/",
+        "dateModified": "2018-08-06",
+        "image": {
+        "@type": "ImageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "RF"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.163.1">
+
+    
+    <meta property="og:url" content="http://localhost:1313/posts/conceptual-logical-physical/">
+	<meta property="og:site_name" content="RF">
+	<meta property="og:title" content="Technical Design: Conceptual, Logical, Physical">
+	<meta property="og:description" content="One of the things that I have noticed as I do design reviews is that many engineers do not correctly document conceptual, logical, and physical design.
+The best non-tech example that I have seen of this concept the following image:
+The way I always describe and diagram design methodology is using the following image:
+I will continue to refer to both images as we move forward in this post.">
+	<meta property="og:locale" content="en_gb">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2017-07-07T16:00:21+00:00">
+		<meta property="article:modified_time" content="2018-08-06T05:02:47+00:00">
+
+
+    
+    
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Technical Design: Conceptual, Logical, Physical">
+	<meta name="twitter:description" content="One of the things that I have noticed as I do design reviews is that many engineers do not correctly document conceptual, logical, and physical design.
+The best non-tech example that I have seen of this concept the following image:
+The way I always describe and diagram design methodology is using the following image:
+I will continue to refer to both images as we move forward in this post.">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/conceptual-logical-physical/">
+    <link href="/style.min.3b3693154a55bd41f8ab0e6c38e5d66bcf10c955c0f5b69809101cd0eb117316.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "auto" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo" aria-label="Home">
+            
+            <img src="/images/logo-light.png" alt="RF" height="32" class="logo-light" />
+            
+            
+            <img src="/images/logo-dark.png" alt="RF" height="32" class="logo-dark" />
+            
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Technical Design: Conceptual, Logical, Physical</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2017-07-07T16:00:21&#43;00:00" itemprop="datePublished"> 7 Jul 2017 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents"></nav>
+    </details>
+            <div class="page-content">
+                <p>One of the things that I have noticed as I do design reviews is that many engineers do not correctly document conceptual, logical, and physical design.</p>
+<p>The best non-tech example that I have seen of this concept the following image:</p>
+<p><img src="/images/2017/07/idea.jpeg" alt="alt text"></p>
+<p>The way I always describe and diagram design methodology is using the following image:</p>
+<p><img src="/images/2017/07/concept.png" alt="alt text"></p>
+<p>I will continue to refer to both images as we move forward in this post.</p>
+<h1 id="conceptual"><strong>Conceptual</strong></h1>
+<p>During the assess phase, the architect reaches out to the business’ key stakeholders for the project and explore what each need and want to get out of the project. The job is to identify key constraints and the business requirements that should be met for the design, deploy, and validation phases to be successful.</p>
+<p>The assessment phase typically coincides with building the conceptual model of a design. Effectively, the conceptual model categorizes the assessment findings into requirements, constraints, assumptions, and risks categories.</p>
+<p>For example:</p>
+<p><strong>Requirements</strong></p>
+<ol>
+<li>technicloud.com should create art.</li>
+<li>The art should be durable and able to withstand years of appreciation.</li>
+<li>Art should be able to be appreciated by millions around the world.</li>
+</ol>
+<p><strong>Constraints</strong></p>
+<ol>
+<li>Art cannot be a monolithic installation piece taking up an entire floor of the museum.</li>
+<li>Art must not be so bourgeoisie that it cannot be appreciated with an untrained eye.</li>
+<li>Art must not be paint-by-numbers.</li>
+</ol>
+<p><strong>Risks</strong></p>
+<ol>
+<li>Lead IT architect at technicloud.com has no prior experience creating art.
+<ul>
+<li>Mitigation – will require art classes to be taken at local community college.</li>
+</ul>
+</li>
+<li>Lead IT architect is left-handed which may lead to smearing of art.
+<ul>
+<li>Mitigation – IT architect will retrain as ambidextrous.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Assumptions</strong></p>
+<ol>
+<li>Art classes at community college make artists.</li>
+<li>Museum will provide security as to ensure art appreciators do not damage artwork.</li>
+</ol>
+<p>As you read through the requirements and constraints, the idea of how the design should look should be getting clearer and clearer. More risks and assumptions will be added as design decisions are made and the impact is analyzed. Notice that the conceptual model was made up entirely of words? Emphasis on “concept” in the word “conceptual”!</p>
+<h1 id="logical"><strong>Logical</strong></h1>
+<p>Once the conceptual model is built out, the architect moves into the logical design phrase (which indicated by the arrows pointing backwards in Figure 2, demonstrating dependence on conceptual). Logical design is where the architect begins making decisions but at a higher level.</p>
+<p><strong>Logical art work design decisions</strong></p>
+<ol>
+<li>Art will be a painting.</li>
+<li>The painting will be of a person.</li>
+<li>The person will be a woman.</li>
+</ol>
+<p>For those who are having a hard time following with the art example, a <strong>tech example</strong> would be:</p>
+<p><img src="/images/2017/07/ldd.png" alt="alt text"></p>
+<p>An example of what a logical diagram may look something like this:</p>
+<p><img src="/images/2017/07/logical.png" alt="alt text"></p>
+<p>Notice that these are ‘higher’ level decisions and diagrams. We’re not quite to filling in the details yet when working on logical design. However, note that these design decisions should map back to the conceptual model.</p>
+<h1 id="physical"><strong>Physical</strong></h1>
+<p>Once the logical design has been mapped out, architect moves to physical design where hardware and software vendors are chosen and configuration specifications are made. Simply put, this is the phase where the details are determined.</p>
+<p><strong>Physical art work design decisions –</strong></p>
+<ol>
+<li>The painting will be a half-length portrait.</li>
+<li>The medium will be oil on a poplar panel.</li>
+<li>The woman will have brown hair.</li>
+</ol>
+<p>Once again, if you hate the Mona Lisa then the <strong>technical design decision example</strong> would be:</p>
+<ol>
+<li>XYZ vendor and model of storage array will be purchased.</li>
+<li>Storage policy based management will be used to place VMs on the correct storage tier.</li>
+<li>Tier-1 LUNs will be replicated hourly.</li>
+</ol>
+<p>These are physical design decisions, which directly correlate and extend the logical design decisions with more information. But, again, at the end of the day, this should all tie back to meeting the business requirements.</p>
+<p><img src="/images/2017/07/pdd.png" alt="alt text"></p>
+<p>An example of a physical design would be something like:</p>
+<p><img src="/images/2017/07/phys.png" alt="alt text"></p>
+<p>Notice that in this diagram, we’re starting to see more details: vendor, model, how things are connected, etc. Remember that physical should expand on logical design decisions and fill in the blanks. At the end of the day, both logical and physical design decisions should map back to meeting the business requirements set forth in the conceptual model (as evidenced by Figure 2).</p>
+<h1 id="final-thoughts"><strong>Final Thoughts</strong></h1>
+<p>Being able to quickly and easily distinguish takes time and practice. I am hoping this clarifies some of the mystery and confusion surrounding this idea.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/rfitzhugh" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://linkedin.com/in/rmfitzhugh" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2026 RF.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

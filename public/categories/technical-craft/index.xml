@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical Craft on RF</title>
+    <link>http://localhost:1313/categories/technical-craft/</link>
+    <description>Recent content in Technical Craft on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/technical-craft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Technical Decision</title>
+      <link>http://localhost:1313/posts/making-a-technical-decision/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/making-a-technical-decision/</guid>
+      
+      <description>&lt;p&gt;Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. &lt;/p&gt;
+&lt;p&gt;Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Giving a Kickass Product Demo</title>
+      <link>http://localhost:1313/posts/giving-a-kickass-product-demo/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/giving-a-kickass-product-demo/</guid>
+      
+      <description>&lt;p&gt;Technologists of all career paths should be able to ace giving a technical demo — not just folks in public facing roles. As an architect, product manager, or engineer you may need to give an internal product demo for a prototype or proof of concept. It takes a mix of science (methodology) and art (storytelling) to give a kickass demo. &lt;/p&gt;
+&lt;p&gt;This post summarizes the methodology established by our team to ensure consistently successful demonstrations and a repeatable pattern that could be adopted by other public speakers. &lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
