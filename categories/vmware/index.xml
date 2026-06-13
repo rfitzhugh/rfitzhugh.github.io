@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware on RF</title>
+    <link>http://localhost:1313/categories/vmware/</link>
+    <description>Recent content in VMware on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 07 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/vmware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing the Conceptual Model for Technical Architecture</title>
+      <link>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</guid>
+      
+      <description>&lt;p&gt;I have &lt;a href=&#34;http://technicloud.com/2017/07/07/virtual-design-master-conceptual-logical-physical/&#34;&gt;previously written&lt;/a&gt; about putting together the conceptual model with logical and physical design; however, I want to dig a little deeper into the conceptual model. The conceptual model categorizes the assessment findings into requirements, constraints, assumptions, and risks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Business **requirements **are provided by key stakeholders and the goal of every solution is to achieve each of these requirements.&lt;/li&gt;
+&lt;li&gt;**Constraints **are conditions that provide boundaries to the design.
+&lt;ul&gt;
+&lt;li&gt;These often get confused with requirements, but remember that a requirement should allow the architect to evaluate multiple options and make a design decision whereas a constraint dictates the answers and removes the ability for the architect to decide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;**Assumptions **list the conditions that are believed to be true, but are not confirmed:
+&lt;ul&gt;
+&lt;li&gt;By the time of deployment, all assumptions should be validated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;**Risks **are factors that might have a negatively affect the design.
+&lt;ul&gt;
+&lt;li&gt;All risks should be mitigated, if possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Describes what should be achieved in the project; describes what the solution will look like.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on RF</title>
+    <link>http://localhost:1313/categories/automation/</link>
+    <description>Recent content in Automation on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digging into Test Automation</title>
+      <link>http://localhost:1313/posts/digging-into-test-automation/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digging-into-test-automation/</guid>
+      
+      <description>&lt;p&gt;Part of making processes more efficient is relying on the crucial component, automation. In DevOps, automation is a near-must for successful performance, because it reduces the number of repetitive tasks thus decreasing the time required for quality results. It is the biggest quality maintainer and speed promoter.&lt;/p&gt;
+&lt;p&gt;As it’s impossible to automate everything, it’s important to have an automation strategy to get maximum ROI from time and money spent. A properly planned strategy can increase the speed of development and free up teams to concentrate on more essential tasks.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on RF</title>
+    <link>http://localhost:1313/categories/architecture/</link>
+    <description>Recent content in Architecture on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Technical Decision</title>
+      <link>http://localhost:1313/posts/making-a-technical-decision/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/making-a-technical-decision/</guid>
+      
+      <description>&lt;p&gt;Every technology-focused business needs the right technical and architectural experience to make technical decisions effectively, balancing the trade-offs. &lt;/p&gt;
+&lt;p&gt;Decision-making is the cognitive process of selecting a course of action among several possible alternative options. Technical decision-making is less about the tool to pick and more about the problem to solve. Once the problem space is well defined, then evaluating the possible solutions becomes a lot easier. Technical decision-making cannot be outsourced.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Visualizing the Conceptual Model for Technical Architecture</title>
+      <link>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/visualizing-the-conceptual-model-for-tech-architecture/</guid>
+      
+      <description>&lt;p&gt;I have &lt;a href=&#34;http://technicloud.com/2017/07/07/virtual-design-master-conceptual-logical-physical/&#34;&gt;previously written&lt;/a&gt; about putting together the conceptual model with logical and physical design; however, I want to dig a little deeper into the conceptual model. The conceptual model categorizes the assessment findings into requirements, constraints, assumptions, and risks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Business **requirements **are provided by key stakeholders and the goal of every solution is to achieve each of these requirements.&lt;/li&gt;
+&lt;li&gt;**Constraints **are conditions that provide boundaries to the design.
+&lt;ul&gt;
+&lt;li&gt;These often get confused with requirements, but remember that a requirement should allow the architect to evaluate multiple options and make a design decision whereas a constraint dictates the answers and removes the ability for the architect to decide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;**Assumptions **list the conditions that are believed to be true, but are not confirmed:
+&lt;ul&gt;
+&lt;li&gt;By the time of deployment, all assumptions should be validated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;**Risks **are factors that might have a negatively affect the design.
+&lt;ul&gt;
+&lt;li&gt;All risks should be mitigated, if possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;Describes what should be achieved in the project; describes what the solution will look like.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Problem Solving with the Cynefin Framework</title>
+      <link>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</guid>
+      
+      <description>&lt;p&gt;Effective leaders know that problem solving is not “one-size-fits-all”. The action taken depends on the situation and, because the circumstances are changing, better decisions can be by using an adaptive approach. I have previously written about the 75% method that I learned in the military, but there’s another framework that I have consistently used with success.&lt;/p&gt;
+&lt;p&gt;Cynefin, pronounced “kih-neh-vihn” (don’t worry, I mispronounced it for longer than I’d like to admit), is a Welsh word that means “place”. The Cynefin framework was coined in 1999 by Dave Snowden. Simply, the Cynefin framework is used to help realize that not all situations are equal and to successfully navigate different situations, different responses are required.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Ch-ch-change Management</title>
+      <link>http://localhost:1313/posts/ch-ch-change-management/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ch-ch-change-management/</guid>
+      
+      <description>&lt;p&gt;Change management has never been easy for the dev or the ops side of the house. Let’s face it; it’s usually a checklist item and a tool to CYA. However, we are moving to a world where change is a part of the culture and a frequent process. There is no excuse to not improve.&lt;/p&gt;
+&lt;p&gt;The ultimate goal of change management is to drive organizational results and outcomes by engaging the staff to encourage the adoption of a new way to work. Whether it is a process, system, job role, or organizational structure change (potentially…all of the above), a project can only successful if the individual changes daily behaviors and begins doing the job in a new way. This is the nature of change management.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Get Mapped: Value Stream Mapping</title>
+      <link>http://localhost:1313/posts/get-mapped-value-stream-mapping/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/get-mapped-value-stream-mapping/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018/06/twain.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Value stream mapping (VSM) does exactly that: it is a DevOps framework (“borrowed” from manufacturing) that provides a structured way for cross-functional teams to collectively see where we are today (long release cycles, silos, damage control afterwards, etc.) and where we want to be in the future (short release cycles, infrastructure as code, iterative development, continuous delivery, etc.).&lt;/p&gt;
+&lt;p&gt;A VSM is a way of getting people to collaborate and see what is really happening. These exercises are often amazing “aha!” moment workshops that make three objectives (flow, feedback, and continuous integration) turn into a sustainable engine of improvement.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Delving into Immutable Infrastructure</title>
+      <link>http://localhost:1313/posts/delving-into-immutable-infrastructure/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/delving-into-immutable-infrastructure/</guid>
+      
+      <description>&lt;p&gt;Before getting too far into the topic, let’s first take a quick look at the difference between mutability and immutability.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Mutable&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Immutable&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Continually updated, patched, and tuned to meet the ongoing needs of the purpose it serves.&lt;/td&gt;
+					&lt;td&gt;State does not change or deviated once constructed. Any changes result in the deployment of a new version rather than modifying existing.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I found this incredible GIF on Giphy, but with some light googling I found that this image came from an O’Reilly &lt;a href=&#34;https://www.oreilly.com/ideas/an-introduction-to-immutable-infrastructure&#34;&gt;blog post&lt;/a&gt;. But I think it does an excellent job of visualizing the difference.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Virtual Design Master: Conceptual, Logical, Physical</title>
+      <link>http://localhost:1313/posts/conceptual-logical-physical/</link>
+      <pubDate>Fri, 07 Jul 2017 16:00:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/conceptual-logical-physical/</guid>
+      
+      <description>&lt;p&gt;One of the things that I have noticed as I do design reviews is that many engineers do not correctly document conceptual, logical, and physical design.&lt;/p&gt;
+&lt;p&gt;The best non-tech example that I have seen of this concept the following image:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2017/07/idea.jpeg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(Figure 1) Disclaimer: I’m not cool enough to have thought of this. I think all credit goes to @StevePantol.&lt;/p&gt;
+&lt;p&gt;The way I always describe and diagram design methodology is using the following image:&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

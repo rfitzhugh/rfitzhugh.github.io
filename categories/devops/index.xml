@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on RF</title>
+    <link>http://localhost:1313/categories/devops/</link>
+    <description>Recent content in DevOps on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Collaboration with Terraform Cloud</title>
+      <link>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/easy-collaboration-with-terraform-cloud/</guid>
+      
+      <description>&lt;p&gt;Our team at Rubrik uses Terraform extensively to manage our infrastructure as code. This means that our infrastructure configurations are version controlled and resources are provisioned in an automated fashion through CI/CD workflows. Because it’s a customer-zero environment, we’re constantly evaluating new tools to find better ways to manage and scale the environment. This led us to trying out Terraform Cloud. &lt;/p&gt;
+&lt;p&gt;Easy collaboration is the name of the game with Terraform Cloud. It offers team-oriented remote execution and is consumed as a SaaS platform. In this post, I’ll cover remote state management, cost estimation, and collaboration with Terraform Cloud.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Problem Solving with the Cynefin Framework</title>
+      <link>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/problem-solving-with-the-cynefin-framework/</guid>
+      
+      <description>&lt;p&gt;Effective leaders know that problem solving is not “one-size-fits-all”. The action taken depends on the situation and, because the circumstances are changing, better decisions can be by using an adaptive approach. I have previously written about the 75% method that I learned in the military, but there’s another framework that I have consistently used with success.&lt;/p&gt;
+&lt;p&gt;Cynefin, pronounced “kih-neh-vihn” (don’t worry, I mispronounced it for longer than I’d like to admit), is a Welsh word that means “place”. The Cynefin framework was coined in 1999 by Dave Snowden. Simply, the Cynefin framework is used to help realize that not all situations are equal and to successfully navigate different situations, different responses are required.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Ch-ch-change Management</title>
+      <link>http://localhost:1313/posts/ch-ch-change-management/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/ch-ch-change-management/</guid>
+      
+      <description>&lt;p&gt;Change management has never been easy for the dev or the ops side of the house. Let’s face it; it’s usually a checklist item and a tool to CYA. However, we are moving to a world where change is a part of the culture and a frequent process. There is no excuse to not improve.&lt;/p&gt;
+&lt;p&gt;The ultimate goal of change management is to drive organizational results and outcomes by engaging the staff to encourage the adoption of a new way to work. Whether it is a process, system, job role, or organizational structure change (potentially…all of the above), a project can only successful if the individual changes daily behaviors and begins doing the job in a new way. This is the nature of change management.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Considering the Methods for Release Engineering</title>
+      <link>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</guid>
+      
+      <description>&lt;p&gt;The entire goal of release engineering is to accelerate rollout of new software or new releases as much as possible. Release engineering focuses on building a pipeline that transforms source code into an integrated, compiled, packaged, tested, and signed product that is ready for release.&lt;/p&gt;
+&lt;p&gt;Release management coordinates release workflows between various dev and ops personnel. Release engineers are more technically focused: working with the code, build systems, configuration management tools and container platforms, among other pipeline components, directly.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Digging into Test Automation</title>
+      <link>http://localhost:1313/posts/digging-into-test-automation/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digging-into-test-automation/</guid>
+      
+      <description>&lt;p&gt;Part of making processes more efficient is relying on the crucial component, automation. In DevOps, automation is a near-must for successful performance, because it reduces the number of repetitive tasks thus decreasing the time required for quality results. It is the biggest quality maintainer and speed promoter.&lt;/p&gt;
+&lt;p&gt;As it’s impossible to automate everything, it’s important to have an automation strategy to get maximum ROI from time and money spent. A properly planned strategy can increase the speed of development and free up teams to concentrate on more essential tasks.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Get Mapped: Value Stream Mapping</title>
+      <link>http://localhost:1313/posts/get-mapped-value-stream-mapping/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/get-mapped-value-stream-mapping/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018/06/twain.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Value stream mapping (VSM) does exactly that: it is a DevOps framework (“borrowed” from manufacturing) that provides a structured way for cross-functional teams to collectively see where we are today (long release cycles, silos, damage control afterwards, etc.) and where we want to be in the future (short release cycles, infrastructure as code, iterative development, continuous delivery, etc.).&lt;/p&gt;
+&lt;p&gt;A VSM is a way of getting people to collaborate and see what is really happening. These exercises are often amazing “aha!” moment workshops that make three objectives (flow, feedback, and continuous integration) turn into a sustainable engine of improvement.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Delving into Immutable Infrastructure</title>
+      <link>http://localhost:1313/posts/delving-into-immutable-infrastructure/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/delving-into-immutable-infrastructure/</guid>
+      
+      <description>&lt;p&gt;Before getting too far into the topic, let’s first take a quick look at the difference between mutability and immutability.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Mutable&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Immutable&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Continually updated, patched, and tuned to meet the ongoing needs of the purpose it serves.&lt;/td&gt;
+					&lt;td&gt;State does not change or deviated once constructed. Any changes result in the deployment of a new version rather than modifying existing.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I found this incredible GIF on Giphy, but with some light googling I found that this image came from an O’Reilly &lt;a href=&#34;https://www.oreilly.com/ideas/an-introduction-to-immutable-infrastructure&#34;&gt;blog post&lt;/a&gt;. But I think it does an excellent job of visualizing the difference.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

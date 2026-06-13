@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Patterns on RF</title>
+    <link>http://localhost:1313/categories/design-patterns/</link>
+    <description>Recent content in Design Patterns on RF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Considering the Methods for Release Engineering</title>
+      <link>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/considering-the-methods-for-release-engineering/</guid>
+      
+      <description>&lt;p&gt;The entire goal of release engineering is to accelerate rollout of new software or new releases as much as possible. Release engineering focuses on building a pipeline that transforms source code into an integrated, compiled, packaged, tested, and signed product that is ready for release.&lt;/p&gt;
+&lt;p&gt;Release management coordinates release workflows between various dev and ops personnel. Release engineers are more technically focused: working with the code, build systems, configuration management tools and container platforms, among other pipeline components, directly.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Digging into Test Automation</title>
+      <link>http://localhost:1313/posts/digging-into-test-automation/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digging-into-test-automation/</guid>
+      
+      <description>&lt;p&gt;Part of making processes more efficient is relying on the crucial component, automation. In DevOps, automation is a near-must for successful performance, because it reduces the number of repetitive tasks thus decreasing the time required for quality results. It is the biggest quality maintainer and speed promoter.&lt;/p&gt;
+&lt;p&gt;As it’s impossible to automate everything, it’s important to have an automation strategy to get maximum ROI from time and money spent. A properly planned strategy can increase the speed of development and free up teams to concentrate on more essential tasks.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Get Mapped: Value Stream Mapping</title>
+      <link>http://localhost:1313/posts/get-mapped-value-stream-mapping/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/get-mapped-value-stream-mapping/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018/06/twain.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Value stream mapping (VSM) does exactly that: it is a DevOps framework (“borrowed” from manufacturing) that provides a structured way for cross-functional teams to collectively see where we are today (long release cycles, silos, damage control afterwards, etc.) and where we want to be in the future (short release cycles, infrastructure as code, iterative development, continuous delivery, etc.).&lt;/p&gt;
+&lt;p&gt;A VSM is a way of getting people to collaborate and see what is really happening. These exercises are often amazing “aha!” moment workshops that make three objectives (flow, feedback, and continuous integration) turn into a sustainable engine of improvement.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
