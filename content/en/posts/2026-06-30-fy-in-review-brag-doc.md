@@ -51,7 +51,7 @@ State what you set out to do at the start of the period, and what you think you 
 
 ### Programs and projects
 
-For each major body of work: Situation, Behavior, Impact, in that order. Name the project. If it has an internal codename nobody outside your org will recognize, translate it - lead with the outcome, then the name, not the other way around. "Reduced median PR cycle time 60%" reads better than "Led Project Sonic".
+For each major body of work: Situation, Behavior, Impact, in that order. Name the project. If it has an internal codename nobody outside your org will recognize, translate it. Lead with the outcome, then the name, not the other way around, e.g., "Reduced median PR cycle time 60%" reads better than "Led Project Sonic".
 
 ### Organizational leverage and mentorship
 
@@ -64,7 +64,7 @@ This is the category most senior engineers under-report, because it doesn't prod
 
 ### Cross-functional and executive influence
 
-At senior levels this is often where the real impact lives and where it's easiest to lose track of. Roadmap decisions you shaped without owning the roadmap. Reporting or analysis that changed how leadership allocated investment. A framework or standard you introduced that other teams adopted without being told to.
+At senior levels this is often where the real impact lives and where it's easiest to lose track of: roadmap decisions you shaped without owning the roadmap; reporting or analysis that changed how leadership allocated investment; a framework or standard you introduced that other teams adopted without being told to.
 
 ### Standards, documentation, and systems that outlast the project
 
