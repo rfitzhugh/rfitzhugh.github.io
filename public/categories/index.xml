@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RF</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://rfitzhugh.github.io/categories/</link>
     <description>Recent content in Categories on RF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rfitzhugh.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
-      <link>http://localhost:1313/categories/architecture/</link>
+      <link>https://rfitzhugh.github.io/categories/architecture/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/architecture/</guid>
+      <guid>https://rfitzhugh.github.io/categories/architecture/</guid>
       
       <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Technical Craft</title>
-      <link>http://localhost:1313/categories/technical-craft/</link>
+      <link>https://rfitzhugh.github.io/categories/technical-craft/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/technical-craft/</guid>
+      <guid>https://rfitzhugh.github.io/categories/technical-craft/</guid>
       
       <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Engineering Leadership</title>
-      <link>http://localhost:1313/categories/engineering-leadership/</link>
+      <link>https://rfitzhugh.github.io/categories/engineering-leadership/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/engineering-leadership/</guid>
+      <guid>https://rfitzhugh.github.io/categories/engineering-leadership/</guid>
       
       <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Leadership</title>
-      <link>http://localhost:1313/categories/leadership/</link>
+      <link>https://rfitzhugh.github.io/categories/leadership/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/leadership/</guid>
+      <guid>https://rfitzhugh.github.io/categories/leadership/</guid>
       
       <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Cloud</title>
-      <link>http://localhost:1313/categories/cloud/</link>
+      <link>https://rfitzhugh.github.io/categories/cloud/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/cloud/</guid>
+      <guid>https://rfitzhugh.github.io/categories/cloud/</guid>
       
       <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/categories/devops/</link>
+      <link>https://rfitzhugh.github.io/categories/devops/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/devops/</guid>
+      <guid>https://rfitzhugh.github.io/categories/devops/</guid>
       
       <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>Terraform</title>
-      <link>http://localhost:1313/categories/terraform/</link>
+      <link>https://rfitzhugh.github.io/categories/terraform/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/terraform/</guid>
+      <guid>https://rfitzhugh.github.io/categories/terraform/</guid>
       
       <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>VMware</title>
-      <link>http://localhost:1313/categories/vmware/</link>
+      <link>https://rfitzhugh.github.io/categories/vmware/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/vmware/</guid>
+      <guid>https://rfitzhugh.github.io/categories/vmware/</guid>
       
       <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>Design Patterns</title>
-      <link>http://localhost:1313/categories/design-patterns/</link>
+      <link>https://rfitzhugh.github.io/categories/design-patterns/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/design-patterns/</guid>
+      <guid>https://rfitzhugh.github.io/categories/design-patterns/</guid>
       
       <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/categories/automation/</link>
+      <link>https://rfitzhugh.github.io/categories/automation/</link>
       <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/automation/</guid>
+      <guid>https://rfitzhugh.github.io/categories/automation/</guid>
       
       <description></description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title>Mentorship</title>
-      <link>http://localhost:1313/categories/mentorship/</link>
+      <link>https://rfitzhugh.github.io/categories/mentorship/</link>
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/mentorship/</guid>
+      <guid>https://rfitzhugh.github.io/categories/mentorship/</guid>
       
       <description></description>
       

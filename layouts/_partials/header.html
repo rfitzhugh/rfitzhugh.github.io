@@ -1,6 +1,6 @@
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
-        <a href="{{ .Site.Home.Permalink }}" class="logo" aria-label="Home">
+        <a href="{{ "" | relURL }}" class="logo" aria-label="Home">
             {{ with resources.Get "images/logo-light.png" }}
             <img src="{{ .RelPermalink }}" alt="RF" height="32" class="logo-light" />
             {{ end }}
