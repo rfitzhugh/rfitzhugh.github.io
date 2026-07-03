@@ -1,6 +1,6 @@
 ---
 title: "Guide to Keeping a Brag Doc"
-date: 2023-03-08
+date: 2026-06-30
 slug: "guide-to-brag-doc"
 categories:
   - "Mentorship"
