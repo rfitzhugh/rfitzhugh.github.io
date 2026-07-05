@@ -9,7 +9,7 @@ theme = "hugo-blog-awesome"
 
 [services]
   [services.googleAnalytics]
-    id = ''
+    id = 'G-34N537HFQ6'
   [services.disqus]
     shortname = ''
 
@@ -51,6 +51,7 @@ theme = "hugo-blog-awesome"
   defaultColor = "auto"
   description = "Writing about developer platforms, engineering leadership, and the craft of building software."
   mainSections = ['posts']
+  additionalScripts = ['js/analytics.js']
   toc = true
   tocOpen = false
   goToTop = true
