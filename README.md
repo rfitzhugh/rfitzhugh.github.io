@@ -81,6 +81,59 @@ After the first push to `main`, the Action will run, create the `gh-pages` branc
 
 ---
 
+## Analytics (GA4)
+
+### Configuration
+
+- GA4 is enabled via `hugo.toml`:
+
+```toml
+[services]
+  [services.googleAnalytics]
+    id = 'G-34N537HFQ6'
+```
+
+- Custom analytics events are implemented in `assets/js/analytics.js`.
+- That script is loaded via `Languages.en-gb.params.additionalScripts` in `hugo.toml`.
+
+### Event naming conventions
+
+Keep event names short, lowercase, and action-oriented:
+- `click_nav`
+- `click_social`
+- `click_outbound`
+- `scroll_depth`
+
+Use concise snake_case parameter names:
+- `link_url`
+- `link_text`
+- `location`
+- `page_path`
+- `depth_percent`
+
+### Post-deploy validation checklist
+
+After pushing to `main` and waiting for the deploy workflow:
+
+1. Open your live site (`https://rfitzhugh.github.io`) in one browser tab.
+2. Open GA4 **Realtime** and **DebugView** in another tab.
+3. Confirm baseline `page_view` appears.
+4. Click:
+   - top nav links (expect `click_nav`)
+   - social links in footer (expect `click_social`)
+   - any outbound link in post content (expect `click_outbound`)
+5. Scroll down a long post:
+   - around mid-page (expect `scroll_depth` with `depth_percent=50`)
+   - near end (expect `scroll_depth` with `depth_percent=90`)
+6. Confirm custom parameters are present for click events.
+
+### Privacy and data hygiene
+
+- Configure GA4 internal traffic filters to exclude your own routine browsing.
+- If you expand audience in regions with stricter consent requirements, add/enable a consent banner before loading analytics.
+
+---
+
 ## Adding a custom domain
 
 Once you've purchased a domain:
