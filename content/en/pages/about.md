@@ -5,17 +5,14 @@ exclude_from_rss: true
 toc: false
 ---
 
-I build platforms that engineers rely on to ship software — the kind of infrastructure that quietly enables thousands of people to do their best work.
+I build the platforms that engineers rely on to ship software — developer platforms, engineering systems, cloud infrastructure, and the tooling that sits between a team and production.
 
-For the past two decades, I've worked at the intersection of developer platforms, engineering productivity, and cloud infrastructure. At Atlassian, I help shape the developer infrastructure used across R&D, with a focus on AI-native development and rethinking how humans and intelligent tooling build software together.
+At Atlassian, I shaped the developer infrastructure used by 6,000+ engineers in R&D, with a more recent focus on AI-native development. We fundamentally rethought the code review experience by improving code ownership, surfacing PR practices while developers were in flow, and shipping UX changes for common pain points - cutting pull request cycle time by 60% across the organization. Another initiative saw us build an internal platform that let teams define and measure engineering standards at scale, reaching 650+ teams and 4,000+ production services. 
 
-Previously, I led productivity initiatives that cut pull request cycle time by 60% and improved CI build speed by 25% across the organisation. Earlier in my career at Rubrik, I built ecosystem integrations and developer tooling — extending the platform through partnerships with Terraform, Ansible, and VMware.
+Earlier at Rubrik, I built ecosystem integrations and developer tooling - extending the platform through technical partnerships with Terraform, Ansible, and VMware. 
 
-I'm particularly interested in how AI will reshape software engineering: from code generation to autonomous platform operations, and how we design systems where human intent and intelligent tooling work together.
+I started my career as a data systems analyst and platoon sergeant in the Marine Corps. From there, I spent six years in consulting, where I helped enterprises modernize cloud platforms and automate infrastructure. 
 
-**Areas of focus**
-- Developer platforms
-- Engineering productivity
-- Cloud infrastructure
-- Platform architecture
-- AI-assisted development
+When agents can write the code, the scarce resource isn't code - it's engineering judgment. That's what I'm spending my time on now: how AI is reshaping software engineering, from code generation to autonomous platform operations, and how we design systems where human intent and intelligent tooling reinforce each other.
+
+Reach me at [rf810@georgetown.edu](mailto:rf810@georgetown.edu).
