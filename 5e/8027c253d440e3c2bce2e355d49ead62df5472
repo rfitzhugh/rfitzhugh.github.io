@@ -1,0 +1,15 @@
+content/en/posts/2026-06-02-navigating-the-unknown.md
+  h_ede725e547d16e 12,14,16,18,20,24,26,28,32,34,46,64,67,71,73
+  h_ede725e547d16e 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5e8027c253d440e3c2bce2e355d49ead62df5472",
+  "prompts": {},
+  "humans": {
+    "h_ede725e547d16e": {
+      "author": "Rebecca Fitzhugh <rmfitzhugh@gmail.com>"
+    }
+  }
+}
