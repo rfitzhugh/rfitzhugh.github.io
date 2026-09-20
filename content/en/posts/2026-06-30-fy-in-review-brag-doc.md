@@ -8,19 +8,13 @@ categories:
 
 # Guide to Keeping a Brag Doc
 
-Julia Evans wrote the [canonical post on brag documents](https://jvns.ca/blog/brag-documents/) back in 2019, and if you haven't read it, go read it. The core idea is right and it holds up. This post isn't a replacement. It's the more prescriptive version I wish someone had handed me earlier in my career: a specific structure, a specific cadence, and specific rules for turning a running list of things you did into something that actually moves a performance review, a promotion packet, or a resume. Why keep one? 
+Julia Evans wrote the [canonical post on brag documents](https://jvns.ca/blog/brag-documents/) back in 2019, and if you haven't read it, go read it. This blog post builds on those core ideas and provides a more prescriptive version, with a specific structure, a specific cadence, and specific rules for turning a running list of things you did into something that actually moves a performance review, a promotion packet, or a resume.
 
-- **You will not remember what you did in January.** By review season, recency bias has already won. The production incident you handled in June feels vivid; the design review that saved a team three months of rework in February is gone unless you wrote it down. Memory is not a reliable evidence store, and performance reviews run on evidence
-- **Your manager does not see everything you do**, and at Principal-plus levels this gap widens, not narrows. Influence work — the design you unblocked in a hallway conversation, the roadmap you shifted in a review you weren't even the presenter for - is exactly the kind of impact that's real, valuable, and invisible unless someone records it
-- **It collapses review-season panic into an editing exercise.** Instead of reconstructing a year from Git history, Slack search, and calendar archaeology, you're editing a document that already exists
-- **It surfaces patterns you can't see in the moment.** I didn't set out to become the person who builds measurement systems from scratch. I noticed it by rereading three years of FY in Review documents and seeing the same shape repeat: no standard exists, I define one, adoption follows. That pattern became a career thesis, not just a job description
-- **It outlives the review cycle.** The same document becomes the raw material for a resume, a promotion packet, an interview loop, or when you're ready to leave - the background document a recruiter or hiring manager needs to actually understand what you did
-
-I've kept a version of this document (mine is usually called "FY in Review") pretty much every year for over a decade, across different companies and every level (both as an IC and a manager). The format changes but the habit hasn't.
+I've kept a version of this document (mine is usually called "FY in Review") pretty much every year for over a decade, across different companies and every level (both as an IC and a manager).
 
 ## The core rule: situation, behavior, impact
 
-Most brag docs fail for the same reason: they list activity instead of outcome. "Led the migration" is activity. "Led the migration of 1,200 repositories to Bitbucket Cloud, reducing build latency 22% and cutting the associated support ticket volume in half" is outcome. 
+Most brag docs fail because they list activity instead of outcomes. "Led the migration" is activity. "Reduced build latency 22%, by migrating 1,200 repositories to Bitbucket Cloud, also cutting the associated support ticket volume in half" is an outcome. 
 
 Use **Situation, Behavior, Impact (SBI)** for every entry that matters -
 
@@ -32,14 +26,14 @@ A one-line entry — "helped with the CI migration" - is nearly worthless six mo
 
 ## Cadence: capture now, refine later
 
-Bt it's unrealistic to expect you write polished SBI entries in the moment. You're in the middle of the work; you don't yet know the full impact, and stopping to craft prose is friction that makes you skip the habit entirely.
+I realize that it's unrealistic to expect you write polished SBI entries in the moment. You're in the middle of the work; you don't yet know the full impact, and stopping to craft prose is friction that makes you skip the habit entirely.
 
 Instead, run two passes:
 
-1. **Capture, weekly or biweekly.** Drop a raw entry the moment something happens - a link to a key PR, the design doc, the Slack thread, the incident retro, a single sentence of context. This takes under two minutes and is the only step that has to survive contact with a busy week. Don't edit. Don't format. Just don't lose it.
-2. **Refine, quarterly.** Once a quarter, sit down and convert the raw links into SBI entries. By this point you usually know the actual impact — the metric moved, the team adopted the pattern, the customer renewed — in a way you couldn't have known the day you shipped it. This is also when you notice the raw list was incomplete, because writing the impact often jogs your memory about the situation.
+1. **Capture, weekly or biweekly.** Drop a raw entry the moment something happens - a link to a key PR, the design doc, the Slack thread, the incident retro, a single sentence of context. This takes under two minutes and is the only step that has to survive contact with a busy week. Don't edit. Don't format. Just toss it in so you don't lose it.
+2. **Refine, quarterly.** Once a quarter, sit down and convert the raw links into SBI entries. By this point you usually know the actual impact (such as the metric moved, the team adopted the pattern, or the customer renewed) in a way you couldn't have known the day you shipped it. This is also when you notice the raw list was incomplete, because writing the impact often jogs your memory about the situation.
 
-At review time, you're not starting from zero and you're not starting from a pile of unrefined links either. You're assembling four quarters of already-polished entries into a narrative.
+At review time, you're not starting from zero and you're not starting from a pile of unrefined links either. You're assembling four quarters of already-polished entries into a cohesive narrative.
 
 ## The template
 
@@ -72,15 +66,15 @@ Anything you built that keeps producing value after you've moved on, such as a m
 
 ### What you learned
 
-Skills, domains, or tools you meaningfully leveled up on. This section is easy to skip, but genuinely useful - it's the fastest way to notice, a year later, that you didn't grow the direction you meant to.
+Skills, domains, or tools you meaningfully leveled up on. This section is easy to skip, but genuinely useful and it's the fastest way to notice, a year later, whether you grew the direction you meant to.
 
 ### Outside the day job
 
-Talks, writing, open source, community involvement, industry recognition. Optional, but if you're building a public technical reputation, this is where the evidence for it lives.
+Conference talks, writing, open source, community involvement, industry recognition. Optional, but if you're building a public technical reputation, this is where the evidence for it lives.
 
 ## Rules I follow
 
-- **Toss links in raw, refine on a schedule - never in the moment**  the habit dies the first week you try to write polished prose while still mid-project
+- **Toss links in raw notes, refine on a schedule - never in the moment**  the habit dies the first week you try to write polished prose while still mid-project
 - **You, not the team, in the Behavior line** - "we shipped X" tells a reviewer nothing about your contribution; "I designed the rollout sequence and drove adoption across 10 orgs" does
 - **A number beats an adjective, every time** - if you don't have one, get specific instead of vague; "adopted by every platform team within two quarters" is not a number, but it's still concrete
 - **Don't wait to fill in the impact** - go back a few months after launch and update the entry with what actually happened; the impact you predicted at ship time is rarely the impact you can prove later, and the later number is the one that survives scrutiny

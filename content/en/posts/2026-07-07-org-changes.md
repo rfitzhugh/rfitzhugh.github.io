@@ -9,15 +9,15 @@ categories:
 
 # Reorgs Happen - Keep Building
 
-In five and a half years at Atlassian, I reported to roughly ten different heads of engineering. Not managers, though I did change managers about five times...but 10 heads of engineering, sometimes skip or other times several levels up, the kind of change that cascades a new strategy, a new set of priorities, and often a new team structure down through everyone beneath it. Reorgs weren't an _occasional_ disruption - they were the operating environment.
+In five and a half years at Atlassian, I reported to roughly ten different heads of engineering. Not managers, though I did change managers about five times...but 10 heads of engineering, sometimes skip or other times several levels up, the kind of change that cascades a new strategy, a new set of priorities, and often a new team structure down through everyone beneath it. Reorgs weren't an _occasional_ disruption but instead were the operating environment.
 
 That's not a complaint. But rather an honest statement in how I learned to start treating reorgs as a constant rather than an anomaly, across two very different environments - at Rubrik as a startup that grew from under 200 people to over 2,000 during my tenure, and the Atlassian enterprise where the around us shifted on what felt like an semi-annual cadence even as the mission above it stayed remarkably stable.
 
-The short version is that reorgs reshape the social system far more than they reshape the technical one. The engineers who come out ahead aren't the ones who predict the next reorg or politically maneuver around it. They're the ones who've built something that doesn't depend on the current org chart to be true.
+The short version is that reorgs reshape the social system far more than they reshape the technical one. The engineers who come out ahead are the ones who've built something that doesn't depend on the current org chart to be true, not those who politically maneuver around it. 
 
 ## Separate out the business strategy 
 
-The first thing a reorg usually does to people, psychologically, is make them ask the wrong questions. "Why is this happening to me?" as if the fate of an entire org is predicated on one engineer. That's never happened. I've had senior ICs spiral in 1:1s after a reorg, and I had to try and politely remind that it had literally nothing to do with them. 
+The first thing a reorg usually does to people, psychologically, is make them ask the wrong questions. "Why is this happening to me?" get asked, as if the fate of an entire org is predicated on one engineer. That's never happened. I've had senior ICs spiral in 1:1s after a reorg, and I had to try and politely remind that it had literally nothing to do with them. 
 
 Reorgs are downstream of budget cycles, executive priorities, market conditions, acquisitions, and product bets or divestments that were made in rooms that had nothing to do with any individual engineer or even one team's output. When Rubrik moved from an appliance-based product toward a SaaS model, that reshaped my org, my title, and my mandate, and those business decisions had exactly nothing to do with whether I was good at my job. It had to do with where the company needed to place its bets next.
 
@@ -25,9 +25,9 @@ The more useful question is: given the new landscape, where can I have the most 
 
 ## Focus on what's actually yours to control
 
-Reporting lines, executive decisions, headcount allocation, which teams get merged or split - none of that is yours to control, and treating it as though it should be is the fastest way to burn up your energy on things that you can't affect. What is yours: the depth of your technical growth, the relationships you've built, the quality of what you ship, how clearly you communicate, and how ready you are for whatever opportunity shows up next.
+What is yours is the depth of your technical growth, the relationships you've built, the quality of what you ship, how clearly you communicate, and how ready you are for whatever opportunity shows up next. Reporting lines, executive decisions, headcount allocation, which teams get merged or split - none of that is yours to control, and treating it as though it should be is the fastest way to burn up your energy on things that you can't affect. 
 
-You have to maintain focus. Every time I've watched someone burn out during a reorg cycle, it's because they kept re-litigating decisions several levels above their pay grade instead of redirecting that same energy into the parts of the situation they could actually shape. The people who come through reorgs well aren't the ones who feel less friction...they're usually the ones who've gotten disciplined about where they spend their attention. And keep pushing forward where they can land positive impact. 
+You have to maintain focus. Every time I've watched someone burn out during a reorg cycle, it's because they kept re-litigating decisions several levels above their pay grade instead of redirecting that same energy into the parts of the situation they could actually shape. The people who come through reorgs well aren't the ones who feel less friction...they're usually the ones who've gotten disciplined about where they spend their attention and keep pushing forward where they can land positive impact. 
 
 ## Get good at reducing uncertainty for other people
 
@@ -39,9 +39,9 @@ That gap is an opportunity, not just a nuisance to wait out. During every reorg 
 
 ## Build a reputation that doesn't live inside the org chart
 
-Most engineers know their immediate team well and almost nobody else. That's fine until the day those relationships disappear overnight, which is exactly what a reorg can do. The people who weather that well are the ones who'd already spent time before the reorg building relationships with engineers on adjacent teams, with product and design partners, with engineering managers and staff-plus engineers outside their immediate reporting line.
+Most engineers know their immediate team well and almost nobody else out of their team. That's fine until the day those relationships disappear overnight, which is exactly what a reorg can do. The people who weather that well are the ones who'd already spent time before the reorg building relationships with engineers on adjacent teams, with product and design partners, with engineering managers and staff-plus engineers outside their immediate reporting line.
 
-Managers will change and teams will get split in half or doubled in size. Reporting chains get redrawn on a slide in a leadership offsite you weren't in. None of that changes whether the people around you already know what you're capable of. Across ten changes in engineering leadership, the throughline that kept me relevant to each new regime wasn't my title at the time. It was that the people making the new org's decisions already had a working understanding of what we built and how we operated, because I tried to sure that understanding existed before it was needed.
+Managers will change and teams will get split in half or doubled in size. Reporting chains get redrawn on a slide in a leadership offsite you weren't in. None of that changes whether the people around you already know what you're capable of. Across ten changes in engineering leadership, the throughline that kept me relevant to each new regime was that the people making the new org's decisions already had a working understanding of what we built and how we operated because I tried to sure that understanding existed before it was needed.
 
 Some things that I want to be known for: shipping reliably, making ambiguous problems clearer, helping other engineers succeed, and being someone people trust when things are stressful. Every one of those is portable, with none of them requiring a specific team, manager, or org chart to remain true.
 
@@ -67,4 +67,4 @@ Don't wait for review season to reconstruct what you did. Keep a running record 
 
 ## Conclusion
 
-Navigating many changes in engineering leadership taught me that the org chart is one of the least stable things about a career, and one of the least important ones to optimize for. What's stable is the work you can point to, the people who've already seen you do it well, and the skills that keep compounding no matter who you report to next. Reorgs will keep happening. They always do. What separates strong engineers isn’t their ability to avoid churn, but to build things that remain useful despite it.
+Navigating many changes in engineering leadership taught me that the org chart is one of the least stable things about a career, and one of the least important ones to optimize for. What's stable is the work you can point to, the people who've already seen you do it well, and the skills that keep compounding no matter who you report to next. Reorgs will keep happening. They always do. What separates strong engineers is their ability to build things that remain useful despite the re-orgs.
