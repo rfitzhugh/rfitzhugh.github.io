@@ -1,0 +1,15 @@
+content/en/posts/2026-06-30-fy-in-review-brag-doc.md
+  h_ede725e547d16e 11,13,17,29,33-34,36,69,73,77
+  h_ede725e547d16e 86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8487cefa214946f2b2af7273908b9a4ea427859b",
+  "prompts": {},
+  "humans": {
+    "h_ede725e547d16e": {
+      "author": "Rebecca Fitzhugh <rmfitzhugh@gmail.com>"
+    }
+  }
+}
