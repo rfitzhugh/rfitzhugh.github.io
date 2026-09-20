@@ -1,0 +1,14 @@
+content/en/pages/about.md
+  h_ede725e547d16e 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f68f01157043da2b24caa5cd0bd3445a910a6dbb",
+  "prompts": {},
+  "humans": {
+    "h_ede725e547d16e": {
+      "author": "Rebecca Fitzhugh <rmfitzhugh@gmail.com>"
+    }
+  }
+}
