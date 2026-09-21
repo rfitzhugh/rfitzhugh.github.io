@@ -1,0 +1,22 @@
+layouts/_partials/meta/standard.html
+  s_eee401a0ed381e::t_545d41306ac6d2 1-57
+hugo.toml
+  s_eee401a0ed381e::t_317033249aef8f 64
+  s_eee401a0ed381e::t_6548dd1e244b84 62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a411f825220284122613d6e90227a0d2f31d73f6",
+  "prompts": {},
+  "sessions": {
+    "s_eee401a0ed381e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "f1b7186b-b563-4f76-92aa-0064f8b0a92a",
+        "model": "grok-4.6"
+      },
+      "human_author": "Rebecca Fitzhugh <rmfitzhugh@gmail.com>"
+    }
+  }
+}
