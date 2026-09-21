@@ -1,3 +1,9 @@
-.DS_Store
-content/.DS_Store
-content/en/.DS_Store
+# OS
+**/.DS_Store
+Thumbs.db
+
+# Hugo generated output and cache
+/public/
+/resources/_gen/
+.hugo_build.lock
+hugo_stats.json
