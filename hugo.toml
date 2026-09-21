@@ -59,9 +59,9 @@ theme = "hugo-blog-awesome"
   rssFeedDescription = "summary"
 
 [Languages.en-gb.params.author]
-  intro = "RF"
+  intro = "Rebecca Fitzhugh"
   name = "RF"
-  description = "I build the platforms that engineers use to build software."
+  description = "Engineering leader currently building something new. Previously focused on developer productivity, API architecture, and cloud infrastructure."
 
 [Languages.en-gb.params.webmanifest]
   name = "RF"
