@@ -1,0 +1,19 @@
+.gitignore
+  s_eee401a0ed381e::t_fb7cd0dd0091f2 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "107985a2b9006533d46fc09bc780ef9b80c004c6",
+  "prompts": {},
+  "sessions": {
+    "s_eee401a0ed381e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "f1b7186b-b563-4f76-92aa-0064f8b0a92a",
+        "model": "grok-4.6"
+      },
+      "human_author": "Rebecca Fitzhugh <rmfitzhugh@gmail.com>"
+    }
+  }
+}
